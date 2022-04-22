@@ -530,10 +530,10 @@ header .header_wrapper .menu_right .menu_right-bottom a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding-left: 30px;
 }
 
 header .header_wrapper .menu_right .menu_right-bottom a span {
-  margin-left: 10px;
   font-weight: 700;
   font-size: 15px;
   line-height: 17px;
@@ -765,6 +765,10 @@ footer .footer_social .social_list li:last-child {
   margin-right: 0;
 }
 
+footer .footer_social .social_list li a:hover svg path {
+  fill: #f97d0a;
+}
+
 footer .footer_navigation {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -787,6 +791,10 @@ footer .footer_navigation .footer_titles {
 footer .footer_navigation .footer_links {
   line-height: 16px;
   color: #ffffff;
+}
+
+footer .footer_navigation .footer_links:hover {
+  text-decoration: underline;
 }
 
 footer .footer_navigation .footer_menu {
@@ -1398,6 +1406,12 @@ footer .footer_copyright .copyright .copy_mit a img {
   background: #F97D0A;
   border-radius: 5px;
   text-align: center;
+  border: 1px solid #f97d0a;
+}
+
+.page-index .cost .cost-form .cost-form_buttons .accept_block a:hover {
+  color: #f97d0a;
+  background: #fff;
 }
 
 .page-index .delivery {
@@ -1586,6 +1600,9 @@ footer .footer_copyright .copyright .copy_mit a img {
   grid-template-columns: 1fr 1fr 1fr;
   -ms-grid-rows: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
+  grid-gap: 1px;
+  background-color: #CCCCCC;
+  border: 1px solid #CCCCCC;
 }
 
 .page-index .benefits .benefits_wrap .card {
@@ -1596,7 +1613,6 @@ footer .footer_copyright .copyright .copy_mit a img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border: 0.5px solid #CCCCCC;
   background: #ffffff;
 }
 
@@ -1708,6 +1724,10 @@ footer .footer_copyright .copyright .copy_mit a img {
   color: #003A7D;
   margin: 30px 0;
   min-height: 69px;
+}
+
+.page-index .news .news_wrap .news_list .news_item .item_heading:hover {
+  text-decoration: underline;
 }
 
 .page-index .news .news_wrap .news_list .news_item p {
@@ -1918,11 +1938,6 @@ footer .footer_copyright .copyright .copy_mit a img {
 
   header .header_wrapper .menu_right .menu_right-bottom {
     margin-top: 15px;
-  }
-
-  header .header_wrapper .menu_right .menu_right-bottom a img {
-    width: 15px;
-    height: 15px;
   }
 
   header .header_wrapper .menu_right .menu_right-bottom a span {
