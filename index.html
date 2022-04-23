@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="x-ua-compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.min.css?_v=20220422143143">
+  <link rel="stylesheet" href="css/style.min.css?_v=20220423203915">
   <title>Главная</title>
 </head>
 <body>
@@ -15,52 +15,66 @@
         <div class="header_wrapper">
             <div class="logo_wrapper">
                 <a href="/">
-                <img src="img/icons/logo.svg" alt="logo">
+                    <img src="img/icons/logo.svg" alt="logo">
                 </a>
             </div>
 
             <nav class="menu_center">
-                <ul class="menu_center-top">
-                    <li class="menu_item dropdown">
-                        <a class="item_link" href="#">О TELS CARGO</a>
-                        <a class="drop_icon"></a>
-                        <ul class="drop_container">
-                            <li><a href="#">Ссылка 1</a></li>
-                            <li><a href="#">Ссылка 1</a></li>
-                            <li><a href="#">Ссылка 1</a></li>
-                            <li><a href="#">Ссылка 1</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu_item dropdown">
-                        <a class="item_link" href="#">Бизнес TELS CARGO</a>
-                        <a class="drop_icon"></a>
-                        <ul class="drop_container">
-                            <li><a href="#">Ссылка 1</a></li>
-                            <li><a href="#">Ссылка 1</a></li>
-                            <li><a href="#">Ссылка 1</a></li>
-                            <li><a href="#">Ссылка 1</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu_item"><a class="item_link" href="#">Устойчивое развитие к КСО</a></li>
-                    <li class="menu_item dropdown">
-                        <a class="item_link" href="#">Карьера</a>
-                        <a class="drop_icon"></a>
-                        <ul class="drop_container">
-                            <li><a href="#">Ссылка 1</a></li>
-                            <li><a href="#">Ссылка 1</a></li>
-                            <li><a href="#">Ссылка 1</a></li>
-                            <li><a href="#">Ссылка 1</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu_item"><a class="item_link" href="#">СМИ</a></li>
-                    <li class="menu_item"><a class="item_link" href="#">Контакты</a></li>
-                </ul>
+                <div class="menu_center-top">
+                    <ul class="menu_center-top-list">
+                        <li class="menu_item dropdown">
+                            <a class="item_link" href="#">О TELS CARGO</a>
+                            <ul class="drop_container">
+                                <li><a href="#">Ссылка 1</a></li>
+                                <li><a href="#">Ссылка 1</a></li>
+                                <li><a href="#">Ссылка 1</a></li>
+                                <li><a href="#">Ссылка 1</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu_item dropdown">
+                            <a class="item_link" href="#">Бизнес TELS CARGO</a>
+                            <ul class="drop_container">
+                                <li><a href="#">Ссылка 1</a></li>
+                                <li><a href="#">Ссылка 1</a></li>
+                                <li><a href="#">Ссылка 1</a></li>
+                                <li><a href="#">Ссылка 1</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu_item"><a class="item_link" href="#">Устойчивое развитие к КСО</a></li>
+                        <li class="menu_item dropdown">
+                            <a class="item_link" href="#">Карьера</a>
+                            <ul class="drop_container">
+                                <li><a href="#">Ссылка 1</a></li>
+                                <li><a href="#">Ссылка 1</a></li>
+                                <li><a href="#">Ссылка 1</a></li>
+                                <li><a href="#">Ссылка 1</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu_item"><a class="item_link" href="#">СМИ</a></li>
+                        <li class="menu_item"><a class="item_link" href="#">Контакты</a></li>
+                    </ul>
+                    <div class="menu_right">
+                        <a id="modal_search" rel="popup_search" class="top_links" href="javascript:void(0);"><img src="img/icons/search.svg" alt="search"></a>
+                        <a class="top_links" href="#"><img src="img/icons/cabinet.svg" alt="cabinet"></a>
+                        <div class="change_lang-wrapper">
+                            <a id="change_lang" class="top_links" href="#">
+                                <img src="img/icons/lang.svg" alt="lang">
+                                <span>RU</span>
+                            </a>
+                            <ul class="lang_list">
+                                <li><a class="lang_links" href="#">EN</a></li>
+                                <li><a class="lang_links" href="#">DE</a></li>
+                                <li><a class="lang_links" href="#">PL</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
 
                 <ul class="menu_center-bottom">
-                    <li class="menu_item_b dropdown">
-                        <a class="item_link_b" href="#">Доставка грузов</a>
-                        <a class="drop_icon_b"></a>
-                        <ul class="drop_container_b">
+                    <li class="menu_item dropdown">
+                        <a class="item_link" href="#">Доставка грузов</a>
+                        <ul class="drop_container">
                             <li><a href="#">Доставка комплектных грузов (FTL)</a></li>
                             <li><a href="#">Доставка сборных грузов (LTL)</a></li>
                             <li><a href="#">Доставка негабаритных, крупногабаритных
@@ -72,43 +86,21 @@
                             <li><a href="#">Экспедирование</a></li>
                         </ul>
                     </li>
-                    <li class="menu_item_b dropdown">
-                        <a class="item_link_b" href="#">Парк TELS CARGO</a>
-                        <a class="drop_icon_b"></a>
-                        <ul class="drop_container_b">
+                    <li class="menu_item dropdown">
+                        <a class="item_link" href="#">Парк TELS CARGO</a>
+                        <ul class="drop_container">
                             <li><a href="#">Ссылка 1</a></li>
                             <li><a href="#">Ссылка 1</a></li>
                             <li><a href="#">Ссылка 1</a></li>
                             <li><a href="#">Ссылка 1</a></li>
                         </ul>
                     </li>
-                    <li class="menu_item_b"><a class="item_link_b" href="#">Тарифы</a></li>
-                    <li class="menu_item_b"><a class="item_link_b" href="#">События</a></li>
+                    <li class="menu_item"><a class="item_link" href="#">Тарифы</a></li>
+                    <li class="menu_item"><a class="item_link" href="#">События</a></li>
+                    <li class="menu_item"><a class="item_link orange" href="#">Связаться с TELS CARGO</a></li>
                 </ul>
             </nav>
 
-            <div class="menu_right">
-                <div class="menu_right-top">
-                    <a id="modal_search" rel="popup_search" class="top_links" href="javascript:void(0);"><img src="img/icons/search.svg" alt="search"></a>
-                    <a class="top_links" href="#"><img src="img/icons/cabinet.svg" alt="cabinet"></a>
-                    <div class="change_lang-wrapper">
-                        <a id="change_lang" class="top_links" href="#">
-                            <img src="img/icons/lang.svg" alt="lang">
-                            <span>RU</span>
-                        </a>
-                        <ul class="lang_list">
-                            <li><a class="lang_links" href="#">EN</a></li>
-                            <li><a class="lang_links" href="#">DE</a></li>
-                            <li><a class="lang_links" href="#">PL</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="menu_right-bottom">
-                    <a href="#">
-                        <span>Связаться с TELS CARGO</span>
-                    </a>
-                </div>
-            </div>
             <div class="mobile-menu">
                 <span class="mobile-menu__icon"></span>
             </div>
@@ -595,7 +587,7 @@
 </footer>
 </div>
 
-<script src="js/jquery-3.4.1.min.js?_v=20220422143143"></script>
-<script src="js/app.min.js?_v=20220422143143"></script>
+<script src="js/jquery-3.4.1.min.js?_v=20220423203915"></script>
+<script src="js/app.min.js?_v=20220423203915"></script>
 </body>
 </html>
