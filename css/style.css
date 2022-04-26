@@ -146,6 +146,10 @@ h6 {
   margin: 0 auto;
 }
 
+b {
+  font-weight: 700;
+}
+
 /*HEADER START*/
 
 header {
@@ -2457,14 +2461,14 @@ footer .footer_copyright .copyright .copy_mit a img {
           flex-direction: column;
 }
 
-.page-delivery .page-delivery_content .delivery_items .item .item_text h2 {
+.page-delivery .page-delivery_content .delivery_items .item .item_text .head_link {
   font-size: 20px;
   line-height: 25px;
   text-transform: uppercase;
   min-height: 92px;
 }
 
-.page-delivery .page-delivery_content .delivery_items .item .item_text h2:after {
+.page-delivery .page-delivery_content .delivery_items .item .item_text .head_link:after {
   display: block;
   content: "";
   width: 50px;
@@ -2473,12 +2477,20 @@ footer .footer_copyright .copyright .copy_mit a img {
   margin: 20px 0;
 }
 
+.page-delivery .page-delivery_content .delivery_items .item .item_text .head_link:hover {
+  color: #f97d0a;
+}
+
+.page-delivery .page-delivery_content .delivery_items .item .item_text .head_link:hover:after {
+  background: #f97d0a;
+}
+
 .page-delivery .page-delivery_content .delivery_items .item .item_text p {
   line-height: 25px;
   text-align: justify;
 }
 
-.page-delivery .page-delivery_content .delivery_items .item .item_text a {
+.page-delivery .page-delivery_content .delivery_items .item .item_text .link {
   margin-top: 33px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2491,17 +2503,17 @@ footer .footer_copyright .copyright .copy_mit a img {
   color: #003A7D;
 }
 
-.page-delivery .page-delivery_content .delivery_items .item .item_text a:hover {
+.page-delivery .page-delivery_content .delivery_items .item .item_text .link:hover {
   color: #f97d0a;
 }
 
-.page-delivery .page-delivery_content .delivery_items .item .item_text a:hover:after {
+.page-delivery .page-delivery_content .delivery_items .item .item_text .link:hover:after {
   padding-top: 1px;
   padding-left: 15px;
   content: url("../img/icons/right_or.svg");
 }
 
-.page-delivery .page-delivery_content .delivery_items .item .item_text a:after {
+.page-delivery .page-delivery_content .delivery_items .item .item_text .link:after {
   padding-top: 1px;
   padding-left: 15px;
   content: url("../img/icons/right_blue.svg");
@@ -2573,6 +2585,176 @@ footer .footer_copyright .copyright .copy_mit a img {
 }
 
 /*DELIVERY END*/
+
+/*GEOGRAPHY START*/
+
+.page-geography .geography_content {
+  margin-bottom: 50px;
+}
+
+.page-geography .geography_content h1 {
+  font-size: 25px;
+  line-height: 29px;
+  text-transform: uppercase;
+  color: #003A7D;
+  margin-bottom: 30px;
+}
+
+.page-geography .geography_content .text {
+  margin-bottom: 20px;
+  line-height: 25px;
+  text-align: justify;
+}
+
+.page-geography .geography_content .text:last-child {
+  margin-bottom: 0;
+}
+
+.page-geography .geography_content .directions {
+  margin: 50px 0;
+}
+
+.page-geography .geography_content .directions h2 {
+  font-size: 25px;
+  line-height: 29px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.page-geography .geography_content .directions .directions_items {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+  grid-gap: 30px;
+}
+
+.page-geography .geography_content .directions .directions_items .item {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 25px;
+  line-height: 29px;
+  text-transform: uppercase;
+  color: #003A7D;
+  background: #F3F3F3;
+  padding: 40px 120px 40px 45px;
+  min-height: 138px;
+}
+
+.page-geography .geography_content .directions .directions_items .item:hover {
+  background: #003A7D;
+  color: #ffffff;
+}
+
+.page-geography .geography_content .directions .directions_items .item:hover:before {
+  position: absolute;
+  left: 0;
+  top: 28%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  content: "";
+  width: 5px;
+  height: 58px;
+  background: #fff;
+}
+
+.page-geography .geography_content .directions .directions_items .item:hover:after {
+  position: absolute;
+  top: 40%;
+  right: 40px;
+  content: url("../img/white_str.svg");
+}
+
+.page-geography .geography_content .directions .directions_items .item:before {
+  position: absolute;
+  left: 0;
+  top: 28%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  content: "";
+  width: 5px;
+  height: 58px;
+  background: #003A7D;
+}
+
+.page-geography .geography_content .directions .directions_items .item:after {
+  position: absolute;
+  top: 40%;
+  right: 40px;
+  content: url("../img/blue_str.svg");
+}
+
+.page-geography .geography_content .additional_services h3 {
+  font-size: 25px;
+  line-height: 29px;
+  text-transform: uppercase;
+}
+
+.page-geography .geography_content .additional_services .add_text {
+  line-height: 25px;
+  text-align: justify;
+  margin: 20px 0 30px 0;
+}
+
+.page-geography .geography_content .additional_services .services_items {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 1px;
+  background-color: #CCCCCC;
+  border: 1px solid #CCCCCC;
+}
+
+.page-geography .geography_content .additional_services .services_items .item {
+  padding: 30px;
+  background-color: #F5F5F5;
+}
+
+.page-geography .geography_content .additional_services .services_items .item .item_head {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 75px;
+  padding-left: 30px;
+  font-size: 16px;
+  line-height: 25px;
+  text-transform: uppercase;
+}
+
+.page-geography .geography_content .additional_services .services_items .item .item_head:before {
+  position: absolute;
+  top: 20%;
+  left: 0;
+  display: block;
+  content: "";
+  width: 5px;
+  height: 45px;
+  background: #003A7D;
+}
+
+.page-geography .geography_content .additional_services .services_items .item .item_text {
+  margin-top: 25px;
+  line-height: 25px;
+  text-align: justify;
+}
+
+/*GEOGRAPHY END*/
 
 @media all and (max-width: 1279px) {
   header .header_wrapper .logo_wrapper {
@@ -2724,6 +2906,18 @@ footer .footer_copyright .copyright .copy_mit a img {
 
   .page-about .page-about_content .about_briefly .briefly_two-cards .card .card_wrap a {
     margin-top: 17px;
+  }
+
+  .page-geography .geography_content .directions .directions_items .item {
+    padding: 40px 80px 40px 45px;
+    min-height: 167px;
+  }
+
+  .page-geography .geography_content .additional_services .services_items {
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
   }
 }
 
@@ -3349,13 +3543,13 @@ footer .footer_copyright .copyright .copy_mit a img {
     width: 140px;
   }
 
-  .page-delivery .page-delivery_content .delivery_items .item .item_text h2 {
+  .page-delivery .page-delivery_content .delivery_items .item .item_text .head_link {
     font-size: 16px;
     line-height: 18px;
     min-height: auto;
   }
 
-  .page-delivery .page-delivery_content .delivery_items .item .item_text h2:after {
+  .page-delivery .page-delivery_content .delivery_items .item .item_text .head_link:after {
     margin: 15px 0;
   }
 
@@ -3364,7 +3558,7 @@ footer .footer_copyright .copyright .copy_mit a img {
     font-size: 12px;
   }
 
-  .page-delivery .page-delivery_content .delivery_items .item .item_text a {
+  .page-delivery .page-delivery_content .delivery_items .item .item_text .link {
     margin-top: 13px;
   }
 
@@ -3395,6 +3589,86 @@ footer .footer_copyright .copyright .copy_mit a img {
 
   .page-delivery .delivery_geo .geo_description a {
     margin-top: 15px;
+  }
+
+  .page-geography .geography_content {
+    margin-bottom: 25px;
+  }
+
+  .page-geography .geography_content h1 {
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 20px;
+  }
+
+  .page-geography .geography_content .text {
+    line-height: 20px;
+    margin-bottom: 15px;
+  }
+
+  .page-geography .geography_content .directions {
+    margin: 25px 0;
+  }
+
+  .page-geography .geography_content .directions h2 {
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 20px;
+  }
+
+  .page-geography .geography_content .directions .directions_items {
+    grid-gap: 15px;
+  }
+
+  .page-geography .geography_content .directions .directions_items .item {
+    padding: 20px 58px 20px 25px;
+    min-height: 80px;
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .page-geography .geography_content .directions .directions_items .item:hover:before {
+    height: 38px;
+  }
+
+  .page-geography .geography_content .directions .directions_items .item:hover:after {
+    top: 30%;
+    right: 20px;
+  }
+
+  .page-geography .geography_content .directions .directions_items .item:before {
+    height: 38px;
+  }
+
+  .page-geography .geography_content .directions .directions_items .item:after {
+    top: 30%;
+    right: 20px;
+  }
+
+  .page-geography .geography_content .additional_services h3 {
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .page-geography .geography_content .additional_services .add_text {
+    line-height: 20px;
+    margin: 15px 0 20px 0;
+  }
+
+  .page-geography .geography_content .additional_services .services_items .item {
+    padding: 20px;
+  }
+
+  .page-geography .geography_content .additional_services .services_items .item .item_head {
+    font-size: 14px;
+    line-height: 20px;
+    height: 70px;
+    padding-left: 20px;
+  }
+
+  .page-geography .geography_content .additional_services .services_items .item .item_text {
+    margin-top: 10px;
+    line-height: 18px;
   }
 }
 
@@ -3503,6 +3777,23 @@ footer .footer_copyright .copyright .copy_mit a img {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
     grid-gap: 15px;
+  }
+
+  .page-geography .geography_content .directions .directions_items {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
+
+  .page-geography .geography_content .directions .directions_items .item {
+    min-height: 94px;
+  }
+
+  .page-geography .geography_content .directions .directions_items .item:hover:after {
+    top: 33%;
+  }
+
+  .page-geography .geography_content .directions .directions_items .item:after {
+    top: 33%;
   }
 }
 
@@ -3650,6 +3941,13 @@ footer .footer_copyright .copyright .copy_mit a img {
 
   .page-about .page-about_content .about_briefly .briefly_two-cards .card .card_img {
     margin-bottom: 15px;
+  }
+
+  .page-geography .geography_content .additional_services .services_items {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
   }
 }
 
