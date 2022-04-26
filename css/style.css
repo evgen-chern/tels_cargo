@@ -2130,10 +2130,167 @@ footer .footer_copyright .copyright .copy_mit a img {
       -ms-flex-align: center;
           align-items: center;
   margin-right: 9%;
+  margin-bottom: 50px;
 }
 
 .page-about .page-about_content .about_briefly .briefly_items .item:nth-child(2) {
   margin-left: 9%;
+}
+
+.page-about .page-about_content .about_briefly .briefly_items .item .left {
+  display: block;
+  width: 285px;
+  margin-right: 135px;
+}
+
+.page-about .page-about_content .about_briefly .briefly_items .item .right {
+  display: block;
+  width: 285px;
+  margin-left: 135px;
+}
+
+.page-about .page-about_content .about_briefly .briefly_items .item .item_wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.page-about .page-about_content .about_briefly .briefly_items .item .item_wrap h4 {
+  font-size: 20px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #003A7D;
+}
+
+.page-about .page-about_content .about_briefly .briefly_items .item .item_wrap h4:after {
+  display: block;
+  content: "";
+  width: 50px;
+  height: 2px;
+  background: #003A7D;
+  margin: 20px 0 30px 0;
+}
+
+.page-about .page-about_content .about_briefly .briefly_items .item .item_wrap p {
+  line-height: 25px;
+  text-align: justify;
+}
+
+.page-about .page-about_content .about_briefly .briefly_items .item .item_wrap a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 33px;
+}
+
+.page-about .page-about_content .about_briefly .briefly_items .item .item_wrap a span {
+  font-size: 12px;
+  text-align: right;
+  text-transform: uppercase;
+  color: #003A7D;
+}
+
+.page-about .page-about_content .about_briefly .briefly_text-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+.page-about .page-about_content .about_briefly .briefly_text-block p {
+  line-height: 25px;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.page-about .page-about_content .about_briefly .briefly_text-block p:last-child {
+  margin-bottom: 0;
+}
+
+.page-about .page-about_content .about_briefly .briefly_two-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 50px 0;
+}
+
+.page-about .page-about_content .about_briefly .briefly_two-cards .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.page-about .page-about_content .about_briefly .briefly_two-cards .card:first-child {
+  margin-right: 30px;
+}
+
+.page-about .page-about_content .about_briefly .briefly_two-cards .card .card_img {
+  display: block;
+  width: 285px;
+  margin-right: 30px;
+}
+
+.page-about .page-about_content .about_briefly .briefly_two-cards .card .card_wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.page-about .page-about_content .about_briefly .briefly_two-cards .card .card_wrap h4 {
+  font-size: 20px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #003A7D;
+}
+
+.page-about .page-about_content .about_briefly .briefly_two-cards .card .card_wrap h4:after {
+  display: block;
+  content: "";
+  width: 50px;
+  height: 2px;
+  background: #003A7D;
+  margin: 20px 0 30px 0;
+}
+
+.page-about .page-about_content .about_briefly .briefly_two-cards .card .card_wrap p {
+  line-height: 25px;
+  text-align: justify;
+}
+
+.page-about .page-about_content .about_briefly .briefly_two-cards .card .card_wrap a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 33px;
+}
+
+.page-about .page-about_content .about_briefly .briefly_two-cards .card .card_wrap a span {
+  font-size: 12px;
+  text-align: right;
+  text-transform: uppercase;
+  color: #003A7D;
 }
 
 /*ABOUT END*/
@@ -2276,6 +2433,18 @@ footer .footer_copyright .copyright .copy_mit a img {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+
+  .page-about .page-about_content .about_briefly .briefly_two-cards .card .card_img {
+    width: 215px;
+  }
+
+  .page-about .page-about_content .about_briefly .briefly_two-cards .card .card_wrap h4:after {
+    margin: 15px 0 20px 0;
+  }
+
+  .page-about .page-about_content .about_briefly .briefly_two-cards .card .card_wrap a {
+    margin-top: 17px;
   }
 }
 
@@ -2788,6 +2957,82 @@ footer .footer_copyright .copyright .copy_mit a img {
     margin-bottom: 15px;
     line-height: 20px;
   }
+
+  .page-about .page-about_content .about_briefly {
+    margin-bottom: 40px;
+  }
+
+  .page-about .page-about_content .about_briefly .briefly_items {
+    width: 95%;
+  }
+
+  .page-about .page-about_content .about_briefly .briefly_items .item {
+    margin-right: 4%;
+    margin-bottom: 25px;
+    width: 95%;
+  }
+
+  .page-about .page-about_content .about_briefly .briefly_items .item:nth-child(2) {
+    margin-left: 4%;
+  }
+
+  .page-about .page-about_content .about_briefly .briefly_items .item .left {
+    width: 235px;
+    margin-right: 55px;
+  }
+
+  .page-about .page-about_content .about_briefly .briefly_items .item .right {
+    width: 235px;
+    margin-left: 55px;
+  }
+
+  .page-about .page-about_content .about_briefly .briefly_items .item .item_wrap h4 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .page-about .page-about_content .about_briefly .briefly_items .item .item_wrap h4:after {
+    margin: 15px 0 20px 0;
+  }
+
+  .page-about .page-about_content .about_briefly .briefly_items .item .item_wrap p {
+    line-height: 20px;
+  }
+
+  .page-about .page-about_content .about_briefly .briefly_items .item .item_wrap a {
+    margin-top: 17px;
+  }
+
+  .page-about .page-about_content .about_briefly .briefly_text-block p {
+    margin-bottom: 15px;
+    line-height: 20px;
+  }
+
+  .page-about .page-about_content .about_briefly .briefly_two-cards {
+    margin: 25px 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .page-about .page-about_content .about_briefly .briefly_two-cards .card:first-child {
+    margin-right: 0;
+    margin-bottom: 25px;
+  }
+
+  .page-about .page-about_content .about_briefly .briefly_two-cards .card .card_img {
+    margin-right: 15px;
+  }
+
+  .page-about .page-about_content .about_briefly .briefly_two-cards .card .card_wrap h4 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .page-about .page-about_content .about_briefly .briefly_two-cards .card .card_wrap p {
+    line-height: 20px;
+  }
 }
 
 @media all and (max-width: 767px) {
@@ -2862,6 +3107,33 @@ footer .footer_copyright .copyright .copy_mit a img {
 
   .footer_form .form_wrap .form_fields_wrapper {
     width: 100%;
+  }
+
+  .page-about .page-about_content .about_briefly .briefly_items {
+    width: 100%;
+  }
+
+  .page-about .page-about_content .about_briefly .briefly_items .item {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .page-about .page-about_content .about_briefly .briefly_items .item:nth-child(2) {
+    margin-left: 0;
+  }
+
+  .page-about .page-about_content .about_briefly .briefly_items .item .left {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+
+  .page-about .page-about_content .about_briefly .briefly_items .item .right {
+    margin-left: 0;
+    margin-top: 15px;
   }
 }
 
@@ -2998,6 +3270,17 @@ footer .footer_copyright .copyright .copy_mit a img {
 
   .page-about .page-about_content .content_header p {
     width: 100%;
+  }
+
+  .page-about .page-about_content .about_briefly .briefly_two-cards .card {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .page-about .page-about_content .about_briefly .briefly_two-cards .card .card_img {
+    margin-bottom: 15px;
   }
 }
 
