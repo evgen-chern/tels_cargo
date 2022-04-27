@@ -2835,6 +2835,262 @@ footer .footer_copyright .copyright .copy_mit a img {
 
 /*GEOGRAPHY DETAIL END*/
 
+/*CONTACTS START*/
+
+.page-contacts .contacts_content {
+  margin-bottom: 50px;
+}
+
+.page-contacts .contacts_content h1 {
+  font-size: 25px;
+  line-height: 29px;
+  text-transform: uppercase;
+  color: #003A7D;
+  margin-bottom: 30px;
+}
+
+.page-contacts .contacts_content .contacts_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+.page-contacts .contacts_content .contacts_list .list_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 30px;
+  background: #f3f3f3;
+  padding: 50px;
+}
+
+.page-contacts .contacts_content .contacts_list .list_item:last-child {
+  margin-bottom: 0;
+}
+
+.page-contacts .contacts_content .contacts_list .list_item .item_description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.page-contacts .contacts_content .contacts_list .list_item .item_description .desc_left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50%;
+  background: #ffffff;
+  margin-right: 30px;
+  padding: 40px;
+}
+
+.page-contacts .contacts_content .contacts_list .list_item .item_description .desc_left h2 {
+  font-size: 25px;
+  line-height: 25px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.page-contacts .contacts_content .contacts_list .list_item .item_description .desc_left .left_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.page-contacts .contacts_content .contacts_list .list_item .item_description .desc_left .left_item:last-child {
+  margin-bottom: 0;
+}
+
+.page-contacts .contacts_content .contacts_list .list_item .item_description .desc_left .left_item .address {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 16px;
+  line-height: 18px;
+  color: #003A7D;
+  margin-right: 20px;
+  padding-top: 10px;
+}
+
+.page-contacts .contacts_content .contacts_list .list_item .item_description .desc_left .left_item .address:before {
+  display: block;
+  margin-right: 10px;
+  content: url("../img/icons/adres.svg");
+}
+
+.page-contacts .contacts_content .contacts_list .list_item .item_description .desc_left .left_item p {
+  max-width: 368px;
+  font-size: 16px;
+  line-height: 25px;
+  text-transform: uppercase;
+}
+
+.page-contacts .contacts_content .contacts_list .list_item .item_description .desc_left .left_item .email {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 16px;
+  line-height: 18px;
+  color: #003A7D;
+  margin-right: 20px;
+  padding-top: 3px;
+}
+
+.page-contacts .contacts_content .contacts_list .list_item .item_description .desc_left .left_item .email:before {
+  display: block;
+  margin-right: 10px;
+  content: url("../img/icons/email.svg");
+}
+
+.page-contacts .contacts_content .contacts_list .list_item .item_description .desc_left .left_item .mail {
+  font-size: 20px;
+  line-height: 23px;
+  text-decoration: underline;
+}
+
+.page-contacts .contacts_content .contacts_list .list_item .item_description .desc_left .left_item .phone {
+  width: 78px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 16px;
+  line-height: 18px;
+  color: #003A7D;
+  margin-right: 20px;
+  padding-top: 3px;
+}
+
+.page-contacts .contacts_content .contacts_list .list_item .item_description .desc_left .left_item .phone:before {
+  display: block;
+  margin-right: 10px;
+  content: url("../img/icons/phone_c.svg");
+}
+
+.page-contacts .contacts_content .contacts_list .list_item .item_description .desc_left .left_item .tel {
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.page-contacts .contacts_content .contacts_list .list_item .item_description .desc_right {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.page-contacts .contacts_content .contacts_list .list_item .item_description .desc_right .img_wrap {
+  margin-right: 30px;
+  height: 333px;
+}
+
+.page-contacts .contacts_content .contacts_list .list_item .item_description .desc_right .img_wrap:last-child {
+  margin-right: 0;
+}
+
+.page-contacts .contacts_content .contacts_list .list_item .item_description .desc_right .img_wrap img {
+  width: 100%;
+  height: 333px;
+}
+
+.page-contacts .contacts_content .contacts_list .list_item .item_map {
+  margin-top: 30px;
+  padding: 43px 40px;
+  background: #ffffff;
+}
+
+.page-contacts .contacts_content .contacts_list .list_item .item_map .map_control {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.page-contacts .contacts_content .contacts_list .list_item .item_map .map_control .view_on_map {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #003A7D;
+}
+
+.page-contacts .contacts_content .contacts_list .list_item .item_map .map_control .view_on_map:hover {
+  color: #f97d0a;
+}
+
+.page-contacts .contacts_content .contacts_list .list_item .item_map .map_control .view_on_map:hover:after {
+  display: block;
+  margin-left: 8px;
+  margin-top: 2px;
+  content: url("../img/icons/down_or.svg");
+}
+
+.page-contacts .contacts_content .contacts_list .list_item .item_map .map_control .view_on_map:after {
+  display: block;
+  margin-left: 8px;
+  margin-top: 2px;
+  content: url("../img/icons/down_bl.svg");
+}
+
+.page-contacts .contacts_content .contacts_list .list_item .item_map .map_control .view_on_map.active {
+  color: #f97d0a;
+}
+
+.page-contacts .contacts_content .contacts_list .list_item .item_map .map_control .view_on_map.active:after {
+  display: block;
+  margin-left: 8px;
+  margin-top: 2px;
+  content: url("../img/icons/up_or.svg");
+}
+
+.page-contacts .contacts_content .contacts_list .list_item .item_map .map_control .coordinates {
+  font-weight: 700;
+  line-height: 16px;
+  color: #003A7D;
+}
+
+.page-contacts .contacts_content .contacts_list .list_item .item_map .map_control .coordinates:hover {
+  color: #f97d0a;
+}
+
+.page-contacts .contacts_content .contacts_list .list_item .item_map .map_vision {
+  display: none;
+  padding-top: 33px;
+}
+
+.page-contacts .contacts_content .contacts_list .list_item .item_map .map_vision.active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.page-contacts .contacts_content .contacts_list .list_item .item_map .map_vision img {
+  width: 100%;
+}
+
+/*CONTACTS END*/
+
 @media all and (max-width: 1279px) {
   header .header_wrapper .logo_wrapper {
     width: 75px;
@@ -2997,6 +3253,10 @@ footer .footer_copyright .copyright .copy_mit a img {
     grid-template-columns: 1fr 1fr;
     -ms-grid-rows: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  .page-contacts .contacts_content .contacts_list .list_item .item_description .desc_left {
+    padding: 30px;
   }
 }
 
@@ -3789,6 +4049,108 @@ footer .footer_copyright .copyright .copy_mit a img {
 
   .page-geography_detail .geography_detail-content .detail_wrapper .right_content .text {
     line-height: 20px;
+  }
+
+  .page-contacts .contacts_content {
+    margin-bottom: 25px;
+  }
+
+  .page-contacts .contacts_content h1 {
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 20px;
+  }
+
+  .page-contacts .contacts_content .contacts_list .list_item {
+    margin-bottom: 15px;
+    padding: 25px;
+  }
+
+  .page-contacts .contacts_content .contacts_list .list_item .item_description {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .page-contacts .contacts_content .contacts_list .list_item .item_description .desc_left {
+    padding: 20px;
+    margin-right: 0;
+    width: 100%;
+  }
+
+  .page-contacts .contacts_content .contacts_list .list_item .item_description .desc_left h2 {
+    font-size: 16px;
+    line-height: 18px;
+    margin-bottom: 15px;
+  }
+
+  .page-contacts .contacts_content .contacts_list .list_item .item_description .desc_left .left_item {
+    margin-bottom: 15px;
+  }
+
+  .page-contacts .contacts_content .contacts_list .list_item .item_description .desc_left .left_item .address {
+    font-size: 14px;
+    line-height: 16px;
+    margin-right: 15px;
+    padding-top: 3px;
+  }
+
+  .page-contacts .contacts_content .contacts_list .list_item .item_description .desc_left .left_item p {
+    max-width: 100%;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .page-contacts .contacts_content .contacts_list .list_item .item_description .desc_left .left_item .email {
+    font-size: 14px;
+    line-height: 16px;
+    margin-right: 15px;
+    padding-top: 0;
+  }
+
+  .page-contacts .contacts_content .contacts_list .list_item .item_description .desc_left .left_item .mail {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .page-contacts .contacts_content .contacts_list .list_item .item_description .desc_left .left_item .phone {
+    font-size: 14px;
+    line-height: 16px;
+    padding-top: 0;
+    width: 65px;
+  }
+
+  .page-contacts .contacts_content .contacts_list .list_item .item_description .desc_left .left_item .tel {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .page-contacts .contacts_content .contacts_list .list_item .item_description .desc_right {
+    margin-top: 15px;
+    width: 100%;
+  }
+
+  .page-contacts .contacts_content .contacts_list .list_item .item_description .desc_right .img_wrap {
+    margin-right: 15px;
+    height: auto;
+  }
+
+  .page-contacts .contacts_content .contacts_list .list_item .item_description .desc_right .img_wrap img {
+    height: auto;
+  }
+
+  .page-contacts .contacts_content .contacts_list .list_item .item_map {
+    margin-top: 15px;
+    padding: 20px;
+  }
+
+  .page-contacts .contacts_content .contacts_list .list_item .item_map .map_control .coordinates {
+    display: none;
+  }
+
+  .page-contacts .contacts_content .contacts_list .list_item .item_map .map_vision {
+    padding-top: 16px;
   }
 }
 
