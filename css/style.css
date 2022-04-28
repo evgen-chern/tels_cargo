@@ -3091,6 +3091,369 @@ footer .footer_copyright .copyright .copy_mit a img {
 
 /*CONTACTS END*/
 
+/*PARK START*/
+
+.page-park .park-header h1 {
+  font-size: 25px;
+  line-height: 29px;
+  text-transform: uppercase;
+  color: #003A7D;
+  margin-bottom: 30px;
+}
+
+.no-webp .page-park .park-header .header-banner{
+  background: url("../img/park_head.png") center/cover no-repeat; }
+
+.page-park .park-header .header-banner {
+  padding: 50px 0;
+}
+
+.page-park .park-header .header-banner h2 {
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 5px;
+}
+
+.page-park .park-header .header-banner h3 {
+  font-size: 38px;
+  line-height: 50px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.page-park .park-header .header-text {
+  margin: 30px auto 50px auto;
+}
+
+.page-park .park-header .header-text p {
+  line-height: 25px;
+  text-align: justify;
+}
+
+.page-park .park-benefits {
+  padding: 50px 0;
+  background: #f3f3f3;
+}
+
+.page-park .park-benefits h3 {
+  font-size: 25px;
+  line-height: 29px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.page-park .park-benefits .benefits_list {
+  background: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  padding: 40px 50px;
+}
+
+.page-park .park-benefits .benefits_list .benefit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.page-park .park-benefits .benefits_list .benefit:after {
+  display: block;
+  margin: 0 55px;
+  content: "";
+  width: 1px;
+  height: 50px;
+  background: #CCCCCC;
+}
+
+.page-park .park-benefits .benefits_list .benefit:last-child:after {
+  display: none;
+}
+
+.page-park .park-benefits .benefits_list .benefit .benefit_text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.page-park .park-benefits .benefits_list .benefit .benefit_text .big {
+  font-size: 50px;
+  line-height: 57px;
+  text-transform: uppercase;
+  color: #F97D0A;
+  margin-bottom: 5px;
+}
+
+.page-park .park-benefits .benefits_list .benefit .benefit_text .big span {
+  font-size: 20px;
+  line-height: 23px;
+  color: #F97D0A;
+}
+
+.page-park .park-benefits .benefits_list .benefit .benefit_text .small {
+  min-height: 40px;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.page-park .park-benefits .benefits-cards {
+  margin-top: 30px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 30px;
+}
+
+.page-park .park-benefits .benefits-cards .card {
+  position: relative;
+  background: #003A7D;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 40px 20px 40px 30px;
+}
+
+.page-park .park-benefits .benefits-cards .card p {
+  max-width: 236px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.page-park .park-benefits .benefits-cards .card .numbers {
+  position: absolute;
+  right: 0;
+  bottom: -25px;
+  font-size: 104px;
+  line-height: 120px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.1);
+}
+
+.page-park .park-content {
+  margin: 50px auto;
+}
+
+.page-park .park-content .tech_list {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+  grid-gap: 30px;
+}
+
+.page-park .park-content .tech_list .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 50px;
+  background: #F3F3F3;
+  height: 252px;
+}
+
+.page-park .park-content .tech_list .item .item_link {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 20px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #003A7D;
+}
+
+.page-park .park-content .tech_list .item .item_link:before {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  content: "";
+  width: 50px;
+  height: 2px;
+  background: #003A7D;
+}
+
+.page-park .park-content .tech_list .item .item_link:after {
+  display: block;
+  content: url("../img/icons/arr_right_b.svg");
+}
+
+.page-park .park-content .tech_list .item .item_link:hover {
+  color: #F97D0A;
+}
+
+.page-park .park-content .tech_list .item .item_link:hover:before {
+  background: #F97D0A;
+}
+
+.page-park .park-content .tech_list .item .item_link:hover:after {
+  content: url("../img/icons/arr_right_o.svg");
+}
+
+.page-park .park-content .tech_list .item .item_text {
+  margin-top: 40px;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: justify;
+  color: #000000;
+}
+
+.no-webp .page-park .park-content .tech_list .item_img{
+  background: url("../img/man.png") center/cover no-repeat; }
+
+.page-park .park-content .tech_list .item_img {
+  position: relative;
+}
+
+.page-park .park-content .tech_list .item_img .more {
+  position: absolute;
+  bottom: 30px;
+  left: 32.5%;
+  display: block;
+  max-width: 207px;
+  text-align: center;
+  color: #FFFFFF;
+  font-weight: 700;
+  line-height: 16px;
+  padding: 16px 40px;
+  background: #F97D0A;
+  border-radius: 5px;
+}
+
+.page-park .park-content .tech_list .item_img .more:hover {
+  background: #ffffff;
+  color: #F97D0A;
+}
+
+.page-park .park-content .quality_safety {
+  margin-top: 50px;
+}
+
+.page-park .park-content .quality_safety h3 {
+  font-size: 25px;
+  line-height: 29px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.page-park .park-content .quality_safety .q_text {
+  line-height: 25px;
+  text-align: justify;
+}
+
+.page-park .park-content .quality_safety h4 {
+  font-size: 20px;
+  line-height: 23px;
+  text-transform: uppercase;
+  margin: 30px 0 20px 0;
+}
+
+.page-park .park-content .quality_safety .b_text {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.page-park .park-content .quality_safety ul {
+  margin: 20px 0 50px 0;
+}
+
+.page-park .park-content .quality_safety ul li {
+  line-height: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10px;
+}
+
+.page-park .park-content .quality_safety ul li:last-child {
+  margin-bottom: 0;
+}
+
+.page-park .park-content .quality_safety ul li:before {
+  display: block;
+  margin-right: 15px;
+  content: url("../img/icons/Ellipse.svg");
+}
+
+.page-park .park-content .quality_safety .quality_list {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+  grid-gap: 30px;
+}
+
+.page-park .park-content .quality_safety .quality_list .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #f3f3f3;
+  padding: 40px 30px;
+}
+
+.page-park .park-content .quality_safety .quality_list .item h5 {
+  max-width: 312px;
+  font-size: 20px;
+  line-height: 23px;
+  text-transform: uppercase;
+}
+
+.page-park .park-content .quality_safety .quality_list .item h5:after {
+  display: block;
+  margin: 20px 0;
+  content: "";
+  width: 50px;
+  height: 2px;
+  background: #003A7D;
+}
+
+.page-park .park-content .quality_safety .quality_list .item .desc {
+  line-height: 25px;
+  text-align: justify;
+}
+
+/*PARK END*/
+
 @media all and (max-width: 1279px) {
   header .header_wrapper .logo_wrapper {
     width: 75px;
@@ -3257,6 +3620,47 @@ footer .footer_copyright .copyright .copy_mit a img {
 
   .page-contacts .contacts_content .contacts_list .list_item .item_description .desc_left {
     padding: 30px;
+  }
+
+  .page-park .park-benefits .benefits_list {
+    padding: 20px 25px;
+  }
+
+  .page-park .park-benefits .benefits_list .benefit:after {
+    margin: 0 30px;
+  }
+
+  .page-park .park-benefits .benefits_list .benefit .benefit_text .big {
+    font-size: 30px;
+    line-height: 37px;
+  }
+
+  .page-park .park-benefits .benefits_list .benefit .benefit_text .big span {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .page-park .park-benefits .benefits_list .benefit .benefit_text .small {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .page-park .park-content .tech_list .item {
+    padding: 41px;
+  }
+
+  .page-park .park-content .tech_list .item_img .more {
+    left: 29%;
+  }
+
+  .page-park .park-content .quality_safety .quality_list {
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+  }
+
+  .page-park .park-content .quality_safety .quality_list .item {
+    padding: 25px 20px;
   }
 }
 
@@ -4152,6 +4556,138 @@ footer .footer_copyright .copyright .copy_mit a img {
   .page-contacts .contacts_content .contacts_list .list_item .item_map .map_vision {
     padding-top: 16px;
   }
+
+  .page-park .park-header h1 {
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 20px;
+  }
+
+  .page-park .park-header .header-banner {
+    padding: 25px 0;
+  }
+
+  .page-park .park-header .header-banner h3 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .page-park .park-header .header-text {
+    margin: 15px auto 25px auto;
+  }
+
+  .page-park .park-header .header-text p {
+    line-height: 20px;
+  }
+
+  .page-park .park-benefits {
+    padding: 25px 0;
+  }
+
+  .page-park .park-benefits h3 {
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 15px;
+  }
+
+  .page-park .park-benefits .benefits-cards {
+    grid-column-gap: 15px;
+  }
+
+  .page-park .park-benefits .benefits-cards .card {
+    margin-top: 15px;
+    padding: 20px;
+  }
+
+  .page-park .park-benefits .benefits-cards .card .numbers {
+    bottom: -5px;
+    font-size: 54px;
+    line-height: 60px;
+  }
+
+  .page-park .park-content {
+    margin: 25px auto;
+  }
+
+  .page-park .park-content .tech_list {
+    grid-gap: 15px;
+  }
+
+  .page-park .park-content .tech_list .item {
+    height: auto;
+    padding: 20px;
+  }
+
+  .page-park .park-content .tech_list .item .item_link {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .page-park .park-content .tech_list .item .item_link:before {
+    top: 40px;
+  }
+
+  .page-park .park-content .tech_list .item .item_text {
+    margin-top: 25px;
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .page-park .park-content .tech_list .item_img .more {
+    padding: 10px 20px;
+    bottom: 10px;
+  }
+
+  .page-park .park-content .quality_safety {
+    margin-top: 25px;
+  }
+
+  .page-park .park-content .quality_safety h3 {
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 15px;
+  }
+
+  .page-park .park-content .quality_safety .q_text {
+    line-height: 20px;
+  }
+
+  .page-park .park-content .quality_safety h4 {
+    font-size: 16px;
+    line-height: 18px;
+    margin: 15px 0 10px 0;
+  }
+
+  .page-park .park-content .quality_safety .b_text {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .page-park .park-content .quality_safety ul {
+    margin: 10px 0 25px 0;
+  }
+
+  .page-park .park-content .quality_safety ul li {
+    line-height: 20px;
+  }
+
+  .page-park .park-content .quality_safety ul li:before {
+    margin-right: 10px;
+  }
+
+  .page-park .park-content .quality_safety .quality_list .item h5 {
+    font-size: 16px;
+    line-height: 18px;
+    max-width: 290px;
+  }
+
+  .page-park .park-content .quality_safety .quality_list .item h5:after {
+    margin: 10px 0;
+  }
+
+  .page-park .park-content .quality_safety .quality_list .item .desc {
+    line-height: 20px;
+  }
 }
 
 @media all and (max-width: 767px) {
@@ -4288,6 +4824,57 @@ footer .footer_copyright .copyright .copy_mit a img {
   .page-geography_detail .geography_detail-content .detail_wrapper .left_img {
     margin-right: 0;
     margin-bottom: 15px;
+  }
+
+  .page-park .park-benefits .benefits_list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+
+  .page-park .park-benefits .benefits_list .benefit {
+    margin-bottom: 15px;
+  }
+
+  .page-park .park-benefits .benefits_list .benefit:after {
+    display: none;
+  }
+
+  .page-park .park-benefits .benefits_list .benefit .benefit_text .small {
+    min-height: auto;
+  }
+
+  .page-park .park-benefits .benefits-cards {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
+    grid-column-gap: 0;
+    margin-top: 0;
+  }
+
+  .page-park .park-content .tech_list {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
+
+  .page-park .park-content .tech_list .item_img {
+    min-height: 148px;
+    height: auto;
+  }
+
+  .page-park .park-content .tech_list .item_img .more {
+    left: 25%;
+    width: 50%;
+  }
+
+  .page-park .park-content .quality_safety .quality_list {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
   }
 }
 
@@ -4450,6 +5037,10 @@ footer .footer_copyright .copyright .copy_mit a img {
 .webp .page-about .page-about_content .content_header{ background: url(../img/about_page.webp) center/cover no-repeat; }
 
 .webp .page-delivery .delivery_geo{ background: url(../img/geo.webp) center/cover no-repeat; }
+
+.webp .page-park .park-header .header-banner{ background: url(../img/park_head.webp) center/cover no-repeat; }
+
+.webp .page-park .park-content .tech_list .item_img{ background: url(../img/man.webp) center/cover no-repeat; }
 
 @media all and (max-width: 500px){
 
