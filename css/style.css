@@ -4004,6 +4004,177 @@ footer .footer_copyright .copyright .copy_mit a img {
   grid-gap: 30px;
 }
 
+.page-job .vacancy .vacancy_list .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  background: #f3f3f3;
+}
+
+.page-job .vacancy .vacancy_list .item .left_img img {
+  width: 105px;
+  height: 290px;
+}
+
+.page-job .vacancy .vacancy_list .item .right_desc {
+  height: 290px;
+  padding: 40px 40px 40px 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.page-job .vacancy .vacancy_list .item .right_desc .title {
+  font-size: 16px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #003A7D;
+}
+
+.page-job .vacancy .vacancy_list .item .right_desc .title:hover {
+  color: #F97D0A;
+}
+
+.page-job .vacancy .vacancy_list .item .right_desc .desc {
+  font-size: 12px;
+  line-height: 25px;
+  text-align: justify;
+  margin: 20px 0 23px 0;
+}
+
+.page-job .vacancy .vacancy_list .item .right_desc .more {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 14px;
+  text-transform: uppercase;
+  color: #003A7D;
+}
+
+.page-job .vacancy .vacancy_list .item .right_desc .more:hover {
+  color: #F97D0A;
+}
+
+.page-job .vacancy .vacancy_list .item .right_desc .more:hover:after {
+  content: url("../img/icons/right_or.svg");
+}
+
+.page-job .vacancy .vacancy_list .item .right_desc .more:after {
+  margin-left: 17px;
+  content: url("../img/icons/right_blue.svg");
+}
+
+.page-job .history {
+  background: #f3f3f3;
+  padding: 50px 0 66px 0;
+}
+
+.page-job .history h3 {
+  margin-bottom: 30px;
+  font-size: 25px;
+  line-height: 29px;
+  text-transform: uppercase;
+}
+
+.page-job .history .history_list {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+  grid-gap: 30px;
+}
+
+.page-job .history .history_list .item {
+  background: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 40px;
+}
+
+.page-job .history .history_list .item .photo {
+  display: block;
+  max-width: 180px;
+  max-height: 180px;
+}
+
+.page-job .history .history_list .item .photo img {
+  width: 100%;
+}
+
+.page-job .history .history_list .item .name {
+  margin: 26px 0 5px 0;
+  font-size: 20px;
+  line-height: 23px;
+  text-transform: uppercase;
+}
+
+.page-job .history .history_list .item .position {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 25px;
+}
+
+.page-job .history .history_list .item .position:after {
+  display: block;
+  margin: 10px 0 20px 0;
+  content: "";
+  background: #003A7D;
+}
+
+.page-job .history .history_list .item .desc {
+  line-height: 25px;
+  text-align: justify;
+}
+
+.page-job .history .history_list .item .more {
+  margin-top: 23px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #003A7D;
+}
+
+.page-job .history .history_list .item .more:hover {
+  color: #F97D0A;
+}
+
+.page-job .history .history_list .item .more:hover:after {
+  content: url("../img/icons/right_or.svg");
+}
+
+.page-job .history .history_list .item .more:after {
+  margin-left: 17px;
+  content: url("../img/icons/right_blue.svg");
+}
+
 /*JOB END*/
 
 @media all and (max-width: 1279px) {
@@ -4247,6 +4418,26 @@ footer .footer_copyright .copyright .copy_mit a img {
   .page-park_detail .park_detail-content .content-wrapper .text_block .text {
     line-height: 20px;
     margin-bottom: 10px;
+  }
+
+  .page-job .vacancy .vacancy_list {
+    grid-gap: 20px;
+  }
+
+  .page-job .vacancy .vacancy_list .item .left_img img {
+    width: 80px;
+    height: 270px;
+  }
+
+  .page-job .vacancy .vacancy_list .item .right_desc {
+    padding: 25px;
+    height: 270px;
+  }
+
+  .page-job .vacancy .vacancy_list .item .right_desc .desc {
+    min-height: 110px;
+    line-height: 22px;
+    margin: 10px 0 13px 0;
   }
 }
 
@@ -5510,6 +5701,36 @@ footer .footer_copyright .copyright .copy_mit a img {
   .page-job .vacancy {
     padding: 25px 15px;
   }
+
+  .page-job .vacancy .vacancy_list {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
+
+  .page-job .vacancy .vacancy_list .item .left_img img {
+    height: auto;
+  }
+
+  .page-job .vacancy .vacancy_list .item .right_desc {
+    height: auto;
+  }
+
+  .page-job .vacancy .vacancy_list .item .right_desc .title {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .page-job .vacancy .vacancy_list .item .right_desc .desc {
+    min-height: auto;
+  }
+
+  .page-job .vacancy .vacancy_list .item .right_desc .more {
+    font-size: 12px;
+  }
+
+  .page-job .vacancy .vacancy_list .item .right_desc .more:after {
+    margin-left: 10px;
+  }
 }
 
 @media all and (max-width: 767px) {
@@ -5886,6 +6107,26 @@ footer .footer_copyright .copyright .copy_mit a img {
     grid-template-columns: 1fr;
     -ms-grid-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  .page-job .job-head .head_wrap .right_side .wrap {
+    padding: 10px 15px;
+    width: 120px;
+  }
+
+  .page-job .job-head .head_wrap .right_side .wrap .actual {
+    font-size: 10px;
+  }
+
+  .page-job .job-head .head_wrap .right_side .wrap .check_actual {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .page-job .job-head .head_wrap .right_side .wrap a {
+    font-size: 10px;
+    padding: 5px;
+    width: 90px;
   }
 }
 
