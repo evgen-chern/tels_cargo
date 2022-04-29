@@ -3454,6 +3454,313 @@ footer .footer_copyright .copyright .copy_mit a img {
 
 /*PARK END*/
 
+/*PARK_DETAIL START*/
+
+.page-used_vehicles .used_vehicles {
+  margin-bottom: 50px;
+}
+
+.page-used_vehicles .used_vehicles h1 {
+  font-size: 25px;
+  line-height: 29px;
+  text-transform: uppercase;
+  color: #003A7D;
+  margin-bottom: 30px;
+}
+
+.page-used_vehicles .used_vehicles h2 {
+  font-size: 20px;
+  line-height: 25px;
+  text-transform: uppercase;
+}
+
+.page-used_vehicles .used_vehicles h2:after {
+  display: block;
+  margin: 20px 0 30px 0;
+  content: "";
+  width: 50px;
+  height: 2px;
+  background: #003A7D;
+}
+
+.page-used_vehicles .used_vehicles .bold_text {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: justify;
+}
+
+.page-used_vehicles .used_vehicles .u_list {
+  margin: 20px 0 30px 0;
+}
+
+.page-used_vehicles .used_vehicles .u_list li {
+  line-height: 25px;
+  margin-bottom: 10px;
+}
+
+.page-used_vehicles .used_vehicles .u_list li:last-child {
+  margin-bottom: 0;
+}
+
+.page-used_vehicles .used_vehicles .o_list {
+  margin: 20px 0 30px 0;
+}
+
+.page-used_vehicles .used_vehicles .o_list li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 25px;
+  margin-bottom: 10px;
+}
+
+.page-used_vehicles .used_vehicles .o_list li:last-child {
+  margin-bottom: 0;
+}
+
+.page-used_vehicles .used_vehicles .o_list li:before {
+  display: block;
+  margin-right: 15px;
+  content: url("../img/icons/Ellipse.svg");
+}
+
+.page-used_vehicles .used_vehicles .text {
+  line-height: 25px;
+}
+
+.page-used_vehicles .used_vehicles h3 {
+  font-size: 25px;
+  line-height: 29px;
+  text-transform: uppercase;
+  margin: 50px 0 30px 0;
+}
+
+.page-used_vehicles .used_vehicles .warranty_list {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 30px;
+  margin-bottom: 30px;
+}
+
+.page-used_vehicles .used_vehicles .warranty_list .item {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #F3F3F3;
+  padding: 30px 20px 30px 30px;
+}
+
+.page-used_vehicles .used_vehicles .warranty_list .item .item_text {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 25px;
+  text-transform: uppercase;
+  z-index: 4;
+}
+
+.page-used_vehicles .used_vehicles .warranty_list .item .item_number {
+  position: absolute;
+  bottom: -24px;
+  right: 0;
+  font-size: 104px;
+  line-height: 120px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  z-index: 3;
+}
+
+.page-used_vehicles .used_vehicles .technics_catalog_list {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+  grid-gap: 1px;
+  background-color: #CCCCCC;
+  border: 1px solid #CCCCCC;
+}
+
+.page-used_vehicles .used_vehicles .technics_catalog_list .item {
+  background: #ffffff;
+  padding: 30px;
+}
+
+.page-used_vehicles .used_vehicles .technics_catalog_list .item.active {
+  -webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 15px 20px rgba(0, 0, 0, 0.1);
+}
+
+.page-used_vehicles .used_vehicles .technics_catalog_list .item .link_img {
+  display: block;
+  max-width: 351px;
+}
+
+.page-used_vehicles .used_vehicles .technics_catalog_list .item .link_img img {
+  width: 100%;
+}
+
+.page-used_vehicles .used_vehicles .technics_catalog_list .item .link_heading {
+  display: block;
+  margin: 30px 0 10px 0;
+  font-size: 20px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #003A7D;
+}
+
+.page-used_vehicles .used_vehicles .technics_catalog_list .item .link_heading:hover {
+  color: #F97D0A;
+}
+
+.page-used_vehicles .used_vehicles .technics_catalog_list .item .year {
+  line-height: 16px;
+}
+
+.page-used_vehicles .used_vehicles .technics_catalog_list .item .characteristics {
+  line-height: 25px;
+  text-align: justify;
+  margin: 20px 0;
+}
+
+.page-used_vehicles .used_vehicles .technics_catalog_list .item .old_price {
+  font-size: 12px;
+  -webkit-text-decoration-line: line-through;
+          text-decoration-line: line-through;
+  text-transform: uppercase;
+  color: #666666;
+}
+
+.page-used_vehicles .used_vehicles .technics_catalog_list .item .new_price {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.page-used_vehicles .additional_form {
+  height: 385px;
+  position: relative;
+  padding-top: 50px;
+  margin-bottom: 100px;
+  background: #F3F3F3;
+}
+
+.page-used_vehicles .additional_form h4 {
+  font-size: 25px;
+  line-height: 29px;
+  text-transform: uppercase;
+}
+
+.page-used_vehicles .additional_form .block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-width: 60%;
+  background: #ffffff;
+  position: absolute;
+  bottom: -50px;
+  left: 20%;
+  right: 20%;
+  -webkit-box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.1);
+}
+
+.page-used_vehicles .additional_form .block:before {
+  display: block;
+  content: "";
+  width: 10px;
+  height: 308px;
+  background: #003A7D;
+}
+
+.page-used_vehicles .additional_form .block .block_img {
+  display: block;
+  padding: 50px 74px 50px 95px;
+}
+
+.page-used_vehicles .additional_form .block .block_info {
+  padding-right: 80px;
+}
+
+.page-used_vehicles .additional_form .block .block_info .name {
+  font-size: 20px;
+  line-height: 23px;
+  text-transform: uppercase;
+}
+
+.page-used_vehicles .additional_form .block .block_info .position {
+  font-weight: 700;
+  line-height: 25px;
+  margin: 10px 0 30px 0;
+}
+
+.page-used_vehicles .additional_form .block .block_info svg {
+  width: 20px;
+}
+
+.page-used_vehicles .additional_form .block .block_info .tel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+}
+
+.page-used_vehicles .additional_form .block .block_info .tel .link {
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.page-used_vehicles .additional_form .block .block_info .tel span {
+  margin: 0 39px 0 10px;
+  display: block;
+  font-size: 16px;
+  line-height: 18px;
+  color: #003A7D;
+}
+
+.page-used_vehicles .additional_form .block .block_info .mail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.page-used_vehicles .additional_form .block .block_info .mail .link {
+  font-size: 20px;
+  line-height: 23px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
+.page-used_vehicles .additional_form .block .block_info .mail span {
+  display: block;
+  margin: 0 20px 0 10px;
+  font-size: 16px;
+  line-height: 18px;
+  color: #003A7D;
+}
+
+/*PARK_DETAIL END*/
+
 @media all and (max-width: 1279px) {
   header .header_wrapper .logo_wrapper {
     width: 75px;
@@ -3661,6 +3968,12 @@ footer .footer_copyright .copyright .copy_mit a img {
 
   .page-park .park-content .quality_safety .quality_list .item {
     padding: 25px 20px;
+  }
+
+  .page-used_vehicles .additional_form .block {
+    min-width: 80%;
+    left: 10%;
+    right: 10%;
   }
 }
 
@@ -4688,6 +5001,174 @@ footer .footer_copyright .copyright .copy_mit a img {
   .page-park .park-content .quality_safety .quality_list .item .desc {
     line-height: 20px;
   }
+
+  .page-used_vehicles .used_vehicles {
+    margin-bottom: 25px;
+  }
+
+  .page-used_vehicles .used_vehicles h1 {
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 20px;
+  }
+
+  .page-used_vehicles .used_vehicles h2 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .page-used_vehicles .used_vehicles h2:after {
+    margin: 10px 0 15px 0;
+  }
+
+  .page-used_vehicles .used_vehicles .bold_text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .page-used_vehicles .used_vehicles .u_list {
+    margin: 10px 0 15px 0;
+  }
+
+  .page-used_vehicles .used_vehicles .u_list li {
+    line-height: 20px;
+  }
+
+  .page-used_vehicles .used_vehicles .o_list {
+    margin: 10px 0 15px 0;
+  }
+
+  .page-used_vehicles .used_vehicles .o_list li {
+    line-height: 20px;
+  }
+
+  .page-used_vehicles .used_vehicles .o_list li:before {
+    margin-right: 10px;
+  }
+
+  .page-used_vehicles .used_vehicles .text {
+    line-height: 20px;
+  }
+
+  .page-used_vehicles .used_vehicles h3 {
+    font-size: 18px;
+    line-height: 20px;
+    margin: 25px 0 15px 0;
+  }
+
+  .page-used_vehicles .used_vehicles .warranty_list {
+    grid-column-gap: 15px;
+    margin-bottom: 15px;
+  }
+
+  .page-used_vehicles .used_vehicles .warranty_list .item {
+    padding: 15px 10px 15px 15px;
+  }
+
+  .page-used_vehicles .used_vehicles .warranty_list .item .item_text {
+    line-height: 20px;
+  }
+
+  .page-used_vehicles .used_vehicles .warranty_list .item .item_number {
+    font-size: 64px;
+    line-height: 70px;
+    bottom: -14px;
+  }
+
+  .page-used_vehicles .used_vehicles .technics_catalog_list .item {
+    padding: 15px;
+  }
+
+  .page-used_vehicles .used_vehicles .technics_catalog_list .item .link_heading {
+    margin: 15px 0 7px 0;
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .page-used_vehicles .used_vehicles .technics_catalog_list .item .year {
+    line-height: 14px;
+  }
+
+  .page-used_vehicles .used_vehicles .technics_catalog_list .item .characteristics {
+    line-height: 20px;
+    margin: 10px 0;
+  }
+
+  .page-used_vehicles .used_vehicles .technics_catalog_list .item .new_price {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .page-used_vehicles .additional_form {
+    height: 300px;
+    padding-top: 25px;
+    margin-bottom: 50px;
+  }
+
+  .page-used_vehicles .additional_form h4 {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .page-used_vehicles .additional_form .block {
+    min-width: 90%;
+    left: 5%;
+    right: 5%;
+    bottom: -25px;
+  }
+
+  .page-used_vehicles .additional_form .block:before {
+    width: 5px;
+    height: 160px;
+  }
+
+  .page-used_vehicles .additional_form .block .block_img {
+    padding: 25px 37px 25px 45px;
+  }
+
+  .page-used_vehicles .additional_form .block .block_info {
+    padding-right: 40px;
+  }
+
+  .page-used_vehicles .additional_form .block .block_info .name {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .page-used_vehicles .additional_form .block .block_info .position {
+    line-height: 20px;
+    margin: 5px 0 15px 0;
+  }
+
+  .page-used_vehicles .additional_form .block .block_info svg {
+    width: 15px;
+  }
+
+  .page-used_vehicles .additional_form .block .block_info .tel {
+    margin-bottom: 10px;
+  }
+
+  .page-used_vehicles .additional_form .block .block_info .tel .link {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .page-used_vehicles .additional_form .block .block_info .tel span {
+    margin: 0 18px 0 5px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .page-used_vehicles .additional_form .block .block_info .mail .link {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .page-used_vehicles .additional_form .block .block_info .mail span {
+    font-size: 14px;
+    line-height: 16px;
+    margin: 0 10px 0 5px;
+  }
 }
 
 @media all and (max-width: 767px) {
@@ -4875,6 +5356,41 @@ footer .footer_copyright .copyright .copy_mit a img {
   .page-park .park-content .quality_safety .quality_list {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
+  }
+
+  .page-used_vehicles .used_vehicles .warranty_list {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    grid-column-gap: 0;
+    grid-row-gap: 15px;
+  }
+
+  .page-used_vehicles .used_vehicles .technics_catalog_list {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
+
+  .page-used_vehicles .additional_form {
+    height: 440px;
+  }
+
+  .page-used_vehicles .additional_form .block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .page-used_vehicles .additional_form .block:before {
+    display: none;
+  }
+
+  .page-used_vehicles .additional_form .block .block_img {
+    padding: 15px;
+  }
+
+  .page-used_vehicles .additional_form .block .block_info {
+    padding: 15px;
   }
 }
 
