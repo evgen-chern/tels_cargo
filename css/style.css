@@ -3597,8 +3597,9 @@ footer .footer_copyright .copyright .copy_mit a img {
 }
 
 .page-used_vehicles .used_vehicles .technics_catalog_list .item.active {
-  -webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 15px 20px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  z-index: 5;
 }
 
 .page-used_vehicles .used_vehicles .technics_catalog_list .item .link_img {
@@ -3863,6 +3864,147 @@ footer .footer_copyright .copyright .copy_mit a img {
 }
 
 /*PARK_DETAIL TYAGACHI END*/
+
+/*JOB START*/
+
+.page-job h1 {
+  font-size: 25px;
+  line-height: 29px;
+  text-transform: uppercase;
+  color: #003A7D;
+  margin-bottom: 30px;
+}
+
+.no-webp .page-job .job-head{
+  background: url("../img/job.png") center/cover no-repeat; }
+
+.page-job .job-head .head_wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.page-job .job-head .head_wrap:after {
+  position: relative;
+  display: block;
+  content: "";
+  width: 40px;
+  height: 306px;
+  background: rgba(255, 255, 255, 0.69);
+  -webkit-backdrop-filter: blur(7px);
+          backdrop-filter: blur(7px);
+}
+
+.page-job .job-head .head_wrap .left_side {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.page-job .job-head .head_wrap .left_side h2 {
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 5px;
+}
+
+.page-job .job-head .head_wrap .left_side h3 {
+  max-width: 507px;
+  font-size: 38px;
+  line-height: 50px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.page-job .job-head .head_wrap .right_side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  background: #ffffff;
+  height: 306px;
+}
+
+.page-job .job-head .head_wrap .right_side .wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 50px 65px;
+  width: 350px;
+}
+
+.page-job .job-head .head_wrap .right_side .wrap .actual {
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #003A7D;
+}
+
+.page-job .job-head .head_wrap .right_side .wrap .actual:after {
+  display: block;
+  margin: 10px 0 15px 0;
+  content: "";
+  width: 50px;
+  height: 2px;
+  background: #003A7D;
+}
+
+.page-job .job-head .head_wrap .right_side .wrap .check_actual {
+  max-width: 173px;
+  font-size: 25px;
+  line-height: 29px;
+  color: #003A7D;
+}
+
+.page-job .job-head .head_wrap .right_side .wrap a {
+  margin-top: 30px;
+  width: 225px;
+  display: block;
+  text-align: center;
+  padding: 16px 40px;
+  font-weight: 700;
+  line-height: 16px;
+  color: #F97D0A;
+  background: #FFFFFF;
+  border: 1px solid #F97D0A;
+  border-radius: 5px;
+}
+
+.page-job .job-head .head_wrap .right_side .wrap a:hover {
+  color: #ffffff;
+  background: #F97D0A;
+}
+
+.page-job .vacancy {
+  padding: 50px 15px;
+}
+
+.page-job .vacancy .vacancy_list {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+  grid-gap: 30px;
+}
+
+/*JOB END*/
 
 @media all and (max-width: 1279px) {
   header .header_wrapper .logo_wrapper {
@@ -5327,6 +5469,47 @@ footer .footer_copyright .copyright .copy_mit a img {
   .page-park_detail .park_detail-content .content-wrapper .text_block .o_list li:before {
     margin-right: 10px;
   }
+
+  .page-job h1 {
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 20px;
+  }
+
+  .page-job .job-head .head_wrap:after {
+    width: 20px;
+    height: 196px;
+  }
+
+  .page-job .job-head .head_wrap .left_side h3 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .page-job .job-head .head_wrap .right_side {
+    height: 196px;
+  }
+
+  .page-job .job-head .head_wrap .right_side .wrap {
+    padding: 25px 30px;
+    width: 250px;
+  }
+
+  .page-job .job-head .head_wrap .right_side .wrap .check_actual {
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .page-job .job-head .head_wrap .right_side .wrap a {
+    margin-top: 20px;
+    width: 185px;
+    padding: 10px 20px;
+    line-height: 14px;
+  }
+
+  .page-job .vacancy {
+    padding: 25px 15px;
+  }
 }
 
 @media all and (max-width: 767px) {
@@ -5715,6 +5898,8 @@ footer .footer_copyright .copyright .copy_mit a img {
 .webp .page-park .park-header .header-banner{ background: url(../img/park_head.webp) center/cover no-repeat; }
 
 .webp .page-park .park-content .tech_list .item_img{ background: url(../img/man.webp) center/cover no-repeat; }
+
+.webp .page-job .job-head{ background: url(../img/job.webp) center/cover no-repeat; }
 
 @media all and (max-width: 500px){
 
