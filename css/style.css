@@ -3454,7 +3454,7 @@ footer .footer_copyright .copyright .copy_mit a img {
 
 /*PARK END*/
 
-/*PARK_DETAIL START*/
+/*PARK_USED START*/
 
 .page-used_vehicles .used_vehicles {
   margin-bottom: 50px;
@@ -3759,7 +3759,110 @@ footer .footer_copyright .copyright .copy_mit a img {
   color: #003A7D;
 }
 
-/*PARK_DETAIL END*/
+/*PARK_USED END*/
+
+/*PARK_DETAIL TYAGACHI START*/
+
+.page-park_detail .park_detail-content {
+  margin-bottom: 50px;
+}
+
+.page-park_detail .park_detail-content h1 {
+  font-size: 25px;
+  line-height: 29px;
+  text-transform: uppercase;
+  color: #003A7D;
+  margin-bottom: 30px;
+}
+
+.page-park_detail .park_detail-content .content-wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 59.8% 40.2%;
+  grid-template-columns: 59.8% 40.2%;
+}
+
+.page-park_detail .park_detail-content .content-wrapper .images_block {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.page-park_detail .park_detail-content .content-wrapper .images_block .big_img {
+  display: block;
+}
+
+.page-park_detail .park_detail-content .content-wrapper .images_block .big_img img {
+  width: 100%;
+  max-width: 735px;
+}
+
+.page-park_detail .park_detail-content .content-wrapper .images_block .small_images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.page-park_detail .park_detail-content .content-wrapper .images_block .small_images img {
+  width: 100%;
+  max-width: 147px;
+}
+
+.page-park_detail .park_detail-content .content-wrapper .text_block {
+  background: #F3F3F3;
+  width: 100%;
+  padding: 50px;
+}
+
+.page-park_detail .park_detail-content .content-wrapper .text_block .bold_text {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: justify;
+}
+
+.page-park_detail .park_detail-content .content-wrapper .text_block .o_list {
+  margin: 20px 0 30px 0;
+}
+
+.page-park_detail .park_detail-content .content-wrapper .text_block .o_list li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 25px;
+  margin-bottom: 10px;
+}
+
+.page-park_detail .park_detail-content .content-wrapper .text_block .o_list li:last-child {
+  margin-bottom: 0;
+}
+
+.page-park_detail .park_detail-content .content-wrapper .text_block .o_list li:before {
+  display: block;
+  margin-right: 15px;
+  content: url("../img/icons/Ellipse.svg");
+}
+
+.page-park_detail .park_detail-content .content-wrapper .text_block .text {
+  line-height: 25px;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.page-park_detail .park_detail-content .content-wrapper .text_block .text:last-child {
+  margin-bottom: 0;
+}
+
+/*PARK_DETAIL TYAGACHI END*/
 
 @media all and (max-width: 1279px) {
   header .header_wrapper .logo_wrapper {
@@ -3974,6 +4077,34 @@ footer .footer_copyright .copyright .copy_mit a img {
     min-width: 80%;
     left: 10%;
     right: 10%;
+  }
+
+  .page-park_detail .park_detail-content .content-wrapper {
+    -ms-grid-columns: 50% 50%;
+    grid-template-columns: 50% 50%;
+  }
+
+  .page-park_detail .park_detail-content .content-wrapper .text_block {
+    padding: 25px;
+  }
+
+  .page-park_detail .park_detail-content .content-wrapper .text_block .bold_text {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .page-park_detail .park_detail-content .content-wrapper .text_block .o_list {
+    margin: 10px 0 15px 0;
+  }
+
+  .page-park_detail .park_detail-content .content-wrapper .text_block .o_list li {
+    line-height: 20px;
+    margin-bottom: 5px;
+  }
+
+  .page-park_detail .park_detail-content .content-wrapper .text_block .text {
+    line-height: 20px;
+    margin-bottom: 10px;
   }
 }
 
@@ -5168,6 +5299,33 @@ footer .footer_copyright .copyright .copy_mit a img {
     font-size: 14px;
     line-height: 16px;
     margin: 0 10px 0 5px;
+  }
+
+  .page-park_detail .park_detail-content {
+    margin-bottom: 25px;
+  }
+
+  .page-park_detail .park_detail-content h1 {
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 20px;
+  }
+
+  .page-park_detail .park_detail-content .content-wrapper {
+    -ms-grid-columns: 100%;
+    grid-template-columns: 100%;
+  }
+
+  .page-park_detail .park_detail-content .content-wrapper .images_block .big_img img {
+    max-width: 100%;
+  }
+
+  .page-park_detail .park_detail-content .content-wrapper .images_block .small_images img {
+    max-width: 100%;
+  }
+
+  .page-park_detail .park_detail-content .content-wrapper .text_block .o_list li:before {
+    margin-right: 10px;
   }
 }
 
