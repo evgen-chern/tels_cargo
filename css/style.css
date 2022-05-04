@@ -3570,6 +3570,50 @@ footer .footer_copyright .copyright .copy_mit a img {
 
 /*CONTACTS END*/
 
+/*BENEFITS CARDS START*/
+
+.benefits-cards {
+  margin-top: 30px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 30px;
+}
+
+.benefits-cards .card {
+  position: relative;
+  background: #003A7D;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 40px 20px 40px 30px;
+}
+
+.benefits-cards .card p {
+  max-width: 236px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.benefits-cards .card .numbers {
+  position: absolute;
+  right: 0;
+  bottom: -25px;
+  font-size: 104px;
+  line-height: 120px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.1);
+}
+
+/*BENEFITS CARDS END*/
+
 /*PARK START*/
 
 .page-park .park-header h1 {
@@ -3686,46 +3730,6 @@ footer .footer_copyright .copyright .copy_mit a img {
   font-weight: 700;
   line-height: 20px;
   text-transform: uppercase;
-}
-
-.page-park .park-benefits .benefits-cards {
-  margin-top: 30px;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-column-gap: 30px;
-}
-
-.page-park .park-benefits .benefits-cards .card {
-  position: relative;
-  background: #003A7D;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 40px 20px 40px 30px;
-}
-
-.page-park .park-benefits .benefits-cards .card p {
-  max-width: 236px;
-  color: #ffffff;
-  font-weight: 700;
-  font-size: 12px;
-  line-height: 20px;
-  text-transform: uppercase;
-}
-
-.page-park .park-benefits .benefits-cards .card .numbers {
-  position: absolute;
-  right: 0;
-  bottom: -25px;
-  font-size: 104px;
-  line-height: 120px;
-  text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.1);
 }
 
 .page-park .park-content {
@@ -4336,20 +4340,12 @@ footer .footer_copyright .copyright .copy_mit a img {
 
 /*PARK_DETAIL TYAGACHI END*/
 
-/*JOB START*/
+/*JOB_BANNER*/
 
-.page-job h1 {
-  font-size: 25px;
-  line-height: 29px;
-  text-transform: uppercase;
-  color: #003A7D;
-  margin-bottom: 30px;
-}
-
-.no-webp .page-job .job-head{
+.no-webp .job-banner{
   background: url("../img/job.png") center/cover no-repeat; }
 
-.page-job .job-head .head_wrap {
+.job-banner .banner_wrap {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4358,7 +4354,7 @@ footer .footer_copyright .copyright .copy_mit a img {
           align-items: center;
 }
 
-.page-job .job-head .head_wrap:after {
+.job-banner .banner_wrap:after {
   position: relative;
   display: block;
   content: "";
@@ -4369,7 +4365,7 @@ footer .footer_copyright .copyright .copy_mit a img {
           backdrop-filter: blur(7px);
 }
 
-.page-job .job-head .head_wrap .left_side {
+.job-banner .banner_wrap .left_side {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4380,7 +4376,7 @@ footer .footer_copyright .copyright .copy_mit a img {
           flex-direction: column;
 }
 
-.page-job .job-head .head_wrap .left_side h2 {
+.job-banner .banner_wrap .left_side h2 {
   font-weight: 700;
   font-size: 12px;
   text-transform: uppercase;
@@ -4388,7 +4384,7 @@ footer .footer_copyright .copyright .copy_mit a img {
   margin-bottom: 5px;
 }
 
-.page-job .job-head .head_wrap .left_side h3 {
+.job-banner .banner_wrap .left_side h3 {
   max-width: 507px;
   font-size: 38px;
   line-height: 50px;
@@ -4396,7 +4392,7 @@ footer .footer_copyright .copyright .copy_mit a img {
   color: #FFFFFF;
 }
 
-.page-job .job-head .head_wrap .right_side {
+.job-banner .banner_wrap .right_side {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4407,7 +4403,7 @@ footer .footer_copyright .copyright .copy_mit a img {
   height: 306px;
 }
 
-.page-job .job-head .head_wrap .right_side .wrap {
+.job-banner .banner_wrap .right_side .wrap {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4419,14 +4415,14 @@ footer .footer_copyright .copyright .copy_mit a img {
   width: 350px;
 }
 
-.page-job .job-head .head_wrap .right_side .wrap .actual {
+.job-banner .banner_wrap .right_side .wrap .actual {
   font-weight: 700;
   font-size: 12px;
   text-transform: uppercase;
   color: #003A7D;
 }
 
-.page-job .job-head .head_wrap .right_side .wrap .actual:after {
+.job-banner .banner_wrap .right_side .wrap .actual:after {
   display: block;
   margin: 10px 0 15px 0;
   content: "";
@@ -4435,14 +4431,14 @@ footer .footer_copyright .copyright .copy_mit a img {
   background: #003A7D;
 }
 
-.page-job .job-head .head_wrap .right_side .wrap .check_actual {
+.job-banner .banner_wrap .right_side .wrap .check_actual {
   max-width: 173px;
   font-size: 25px;
   line-height: 29px;
   color: #003A7D;
 }
 
-.page-job .job-head .head_wrap .right_side .wrap a {
+.job-banner .banner_wrap .right_side .wrap a {
   margin-top: 30px;
   width: 225px;
   display: block;
@@ -4456,9 +4452,21 @@ footer .footer_copyright .copyright .copy_mit a img {
   border-radius: 5px;
 }
 
-.page-job .job-head .head_wrap .right_side .wrap a:hover {
+.job-banner .banner_wrap .right_side .wrap a:hover {
   color: #ffffff;
   background: #F97D0A;
+}
+
+/*JOB_BANNER*/
+
+/*JOB START*/
+
+.page-job h1 {
+  font-size: 25px;
+  line-height: 29px;
+  text-transform: uppercase;
+  color: #003A7D;
+  margin-bottom: 30px;
 }
 
 .page-job .vacancy {
@@ -4607,8 +4615,10 @@ footer .footer_copyright .copyright .copy_mit a img {
 }
 
 .page-job .history .history_list .item .position:after {
+  width: 50px;
+  height: 2px;
   display: block;
-  margin: 10px 0 20px 0;
+  margin: 10px auto 20px auto;
   content: "";
   background: #003A7D;
 }
@@ -4646,7 +4656,271 @@ footer .footer_copyright .copyright .copy_mit a img {
   content: url("../img/icons/right_blue.svg");
 }
 
+.page-job .our_values {
+  max-width: 915px;
+  margin: 50px auto;
+}
+
+.page-job .our_values .value {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.page-job .our_values .value .value_img {
+  max-width: 285px;
+}
+
+.page-job .our_values .value .value_img img {
+  height: 358px;
+}
+
+.page-job .our_values .value .value_description {
+  margin-left: 135px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.page-job .our_values .value .value_description .title {
+  font-size: 20px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #003A7D;
+}
+
+.page-job .our_values .value .value_description .title:after {
+  width: 50px;
+  height: 2px;
+  display: block;
+  margin: 20px 0 30px 0;
+  content: "";
+  background: #003A7D;
+}
+
+.page-job .our_values .value .value_description .text {
+  line-height: 25px;
+  text-align: justify;
+}
+
+.page-job .our_values .value .value_description .link {
+  margin-top: 33px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #003A7D;
+}
+
+.page-job .our_values .value .value_description .link:hover {
+  color: #F97D0A;
+}
+
+.page-job .our_values .value .value_description .link:hover:after {
+  content: url("../img/icons/right_or.svg");
+}
+
+.page-job .our_values .value .value_description .link:after {
+  margin-left: 17px;
+  content: url("../img/icons/right_blue.svg");
+}
+
 /*JOB END*/
+
+/*VACANCY DETAIL START*/
+
+.page-vacancy_detail .vacancy_detail {
+  margin-bottom: 50px;
+}
+
+.page-vacancy_detail .vacancy_detail h1 {
+  font-size: 25px;
+  line-height: 29px;
+  text-transform: uppercase;
+  color: #003A7D;
+  margin-bottom: 30px;
+}
+
+.page-vacancy_detail .vacancy_detail .description {
+  background: #F3F3F3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.page-vacancy_detail .vacancy_detail .description .image_block {
+  max-width: 315px;
+}
+
+.page-vacancy_detail .vacancy_detail .description .image_block img {
+  height: 416px;
+}
+
+.page-vacancy_detail .vacancy_detail .description .text_block {
+  padding: 50px 105px;
+}
+
+.page-vacancy_detail .vacancy_detail .description .text_block .text {
+  line-height: 25px;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.page-vacancy_detail .vacancy_detail .description .text_block .text:last-child {
+  margin-bottom: 0;
+}
+
+.page-vacancy_detail .vacancy_detail .benefits-cards {
+  margin-top: 50px;
+}
+
+.page-vacancy_detail .job-banner {
+  margin-bottom: 50px;
+}
+
+/*VACANCY DETAIL END*/
+
+/*JOB HISTORY START*/
+
+.page-job_history .job_history h1 {
+  font-size: 25px;
+  line-height: 29px;
+  text-transform: uppercase;
+  color: #003A7D;
+  margin-bottom: 30px;
+}
+
+.page-job_history .job_history .employee {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.page-job_history .job_history .employee .photo {
+  width: 50%;
+}
+
+.page-job_history .job_history .employee .photo img {
+  width: 100%;
+}
+
+.page-job_history .job_history .employee .biography {
+  position: relative;
+  background: #F3F3F3;
+  margin-left: 30px;
+  width: 50%;
+  padding: 50px;
+}
+
+.page-job_history .job_history .employee .biography:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 5px;
+  height: 100%;
+  background: #CCCCCC;
+}
+
+.page-job_history .job_history .employee .biography .name {
+  font-size: 25px;
+  line-height: 29px;
+  text-transform: uppercase;
+}
+
+.page-job_history .job_history .employee .biography .position {
+  font-weight: 700;
+  font-size: 12px;
+  text-align: justify;
+  margin: 12px 0 30px 0;
+}
+
+.page-job_history .job_history .employee .biography .text {
+  line-height: 25px;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.page-job_history .job_history .employee .biography .text:last-child {
+  margin-bottom: 0;
+}
+
+.page-job_history .job_history .employee .biography .bold_text {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: justify;
+  margin: 30px 0 20px 0;
+}
+
+.page-job_history .job_history .employee .biography .achievements li {
+  margin-bottom: 10px;
+  line-height: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.page-job_history .job_history .employee .biography .achievements li:before {
+  display: block;
+  margin-right: 15px;
+  content: url("../img/icons/Ellipse.svg");
+}
+
+.page-job_history .job_history .employee .biography .achievements li:last-child {
+  margin-bottom: 0;
+}
+
+.page-job_history .job_history .employee .biography .quote_block {
+  background: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 30px;
+}
+
+.page-job_history .job_history .employee .biography .quote_block img {
+  display: block;
+  margin-right: 30px;
+  width: 40px;
+  height: 40px;
+}
+
+.page-job_history .job_history .employee .biography .quote_block .quote_text {
+  font-style: italic;
+  font-size: 12px;
+  line-height: 25px;
+  text-align: justify;
+}
+
+.page-job_history .job-banner {
+  margin: 50px 0;
+}
+
+/*JOB HISTORY END*/
 
 @media all and (max-width: 1279px) {
   header .header_wrapper .logo_wrapper {
@@ -4898,6 +5172,10 @@ footer .footer_copyright .copyright .copy_mit a img {
     min-height: 110px;
     line-height: 22px;
     margin: 10px 0 13px 0;
+  }
+
+  .page-vacancy_detail .vacancy_detail .description .text_block {
+    padding: 25px 55px;
   }
 }
 
@@ -5794,6 +6072,21 @@ footer .footer_copyright .copyright .copy_mit a img {
     padding-top: 16px;
   }
 
+  .benefits-cards {
+    grid-column-gap: 15px;
+  }
+
+  .benefits-cards .card {
+    margin-top: 15px;
+    padding: 20px;
+  }
+
+  .benefits-cards .card .numbers {
+    bottom: -5px;
+    font-size: 54px;
+    line-height: 60px;
+  }
+
   .page-park .park-header h1 {
     font-size: 18px;
     line-height: 22px;
@@ -5825,21 +6118,6 @@ footer .footer_copyright .copyright .copy_mit a img {
     font-size: 18px;
     line-height: 20px;
     margin-bottom: 15px;
-  }
-
-  .page-park .park-benefits .benefits-cards {
-    grid-column-gap: 15px;
-  }
-
-  .page-park .park-benefits .benefits-cards .card {
-    margin-top: 15px;
-    padding: 20px;
-  }
-
-  .page-park .park-benefits .benefits-cards .card .numbers {
-    bottom: -5px;
-    font-size: 54px;
-    line-height: 60px;
   }
 
   .page-park .park-content {
@@ -6131,41 +6409,41 @@ footer .footer_copyright .copyright .copy_mit a img {
     line-height: 20px;
   }
 
-  .page-job h1 {
-    font-size: 18px;
-    line-height: 22px;
-    margin-bottom: 20px;
-  }
-
-  .page-job .job-head .head_wrap:after {
+  .job-banner .banner_wrap:after {
     width: 20px;
     height: 196px;
   }
 
-  .page-job .job-head .head_wrap .left_side h3 {
+  .job-banner .banner_wrap .left_side h3 {
     font-size: 20px;
     line-height: 25px;
   }
 
-  .page-job .job-head .head_wrap .right_side {
+  .job-banner .banner_wrap .right_side {
     height: 196px;
   }
 
-  .page-job .job-head .head_wrap .right_side .wrap {
+  .job-banner .banner_wrap .right_side .wrap {
     padding: 25px 30px;
     width: 250px;
   }
 
-  .page-job .job-head .head_wrap .right_side .wrap .check_actual {
+  .job-banner .banner_wrap .right_side .wrap .check_actual {
     font-size: 18px;
     line-height: 20px;
   }
 
-  .page-job .job-head .head_wrap .right_side .wrap a {
+  .job-banner .banner_wrap .right_side .wrap a {
     margin-top: 20px;
     width: 185px;
     padding: 10px 20px;
     line-height: 14px;
+  }
+
+  .page-job h1 {
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 20px;
   }
 
   .page-job .vacancy {
@@ -6200,6 +6478,188 @@ footer .footer_copyright .copyright .copy_mit a img {
 
   .page-job .vacancy .vacancy_list .item .right_desc .more:after {
     margin-left: 10px;
+  }
+
+  .page-job .history {
+    padding: 25px 0 33px 0;
+  }
+
+  .page-job .history h3 {
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .page-job .history .history_list {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
+  }
+
+  .page-job .history .history_list .item {
+    padding: 20px;
+  }
+
+  .page-job .history .history_list .item .name {
+    margin: 15px 0 5px 0;
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .page-job .history .history_list .item .position {
+    line-height: 20px;
+  }
+
+  .page-job .history .history_list .item .position:after {
+    margin: 10px auto 15px auto;
+  }
+
+  .page-job .history .history_list .item .desc {
+    line-height: 20px;
+  }
+
+  .page-job .history .history_list .item .more {
+    margin-top: 15px;
+  }
+
+  .page-job .history .history_list .item .more:after {
+    margin-left: 10px;
+  }
+
+  .page-job .our_values {
+    margin: 25px auto;
+    padding: 0 15px;
+  }
+
+  .page-job .our_values .value .value_img img {
+    height: auto;
+  }
+
+  .page-job .our_values .value .value_description {
+    margin-left: 25px;
+  }
+
+  .page-job .our_values .value .value_description .title {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .page-job .our_values .value .value_description .title:after {
+    margin: 10px 0 15px 0;
+  }
+
+  .page-job .our_values .value .value_description .text {
+    line-height: 20px;
+  }
+
+  .page-job .our_values .value .value_description .link {
+    margin-top: 17px;
+  }
+
+  .page-job .our_values .value .value_description .link:after {
+    margin-left: 10px;
+  }
+
+  .page-vacancy_detail .vacancy_detail {
+    margin-bottom: 25px;
+  }
+
+  .page-vacancy_detail .vacancy_detail h1 {
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 20px;
+  }
+
+  .page-vacancy_detail .vacancy_detail .description .image_block img {
+    height: auto;
+    width: 265px;
+  }
+
+  .page-vacancy_detail .vacancy_detail .description .text_block {
+    padding: 25px;
+  }
+
+  .page-vacancy_detail .vacancy_detail .description .text_block .text {
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+
+  .page-vacancy_detail .vacancy_detail .benefits-cards {
+    margin-top: 0;
+  }
+
+  .page-vacancy_detail .job-banner {
+    margin-bottom: 25px;
+  }
+
+  .page-job_history .job_history h1 {
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 20px;
+  }
+
+  .page-job_history .job_history .employee {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .page-job_history .job_history .employee .photo {
+    width: 100%;
+  }
+
+  .page-job_history .job_history .employee .biography {
+    width: 100%;
+    margin-left: 0;
+    padding: 25px;
+  }
+
+  .page-job_history .job_history .employee .biography .name {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .page-job_history .job_history .employee .biography .position {
+    margin: 10px 0 15px 0;
+  }
+
+  .page-job_history .job_history .employee .biography .text {
+    line-height: 20px;
+    margin-bottom: 15px;
+  }
+
+  .page-job_history .job_history .employee .biography .bold_text {
+    font-size: 14px;
+    line-height: 20px;
+    margin: 15px 0 10px 0;
+  }
+
+  .page-job_history .job_history .employee .biography .achievements li {
+    line-height: 20px;
+  }
+
+  .page-job_history .job_history .employee .biography .achievements li:before {
+    margin-right: 10px;
+  }
+
+  .page-job_history .job_history .employee .biography .quote_block {
+    padding: 15px;
+  }
+
+  .page-job_history .job_history .employee .biography .quote_block img {
+    margin-right: 15px;
+    width: 25px;
+    height: 25px;
+  }
+
+  .page-job_history .job_history .employee .biography .quote_block .quote_text {
+    line-height: 20px;
+  }
+
+  .page-job_history .job-banner {
+    margin: 25px 0;
   }
 }
 
@@ -6346,6 +6806,15 @@ footer .footer_copyright .copyright .copy_mit a img {
     margin-bottom: 15px;
   }
 
+  .benefits-cards {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
+    grid-column-gap: 0;
+    margin-top: 0;
+  }
+
   .page-park .park-benefits .benefits_list {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -6366,15 +6835,6 @@ footer .footer_copyright .copyright .copy_mit a img {
 
   .page-park .park-benefits .benefits_list .benefit .benefit_text .small {
     min-height: auto;
-  }
-
-  .page-park .park-benefits .benefits-cards {
-    -ms-grid-columns: 1fr;
-    grid-template-columns: 1fr;
-    -ms-grid-rows: auto;
-    grid-template-rows: auto;
-    grid-column-gap: 0;
-    margin-top: 0;
   }
 
   .page-park .park-content .tech_list {
@@ -6429,6 +6889,38 @@ footer .footer_copyright .copyright .copy_mit a img {
   }
 
   .page-used_vehicles .additional_form .block .block_info {
+    padding: 15px;
+  }
+
+  .page-job .our_values .value {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .page-job .our_values .value .value_description {
+    margin-top: 20px;
+    margin-left: 0;
+  }
+
+  .page-vacancy_detail .vacancy_detail .description {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .page-vacancy_detail .vacancy_detail .description .image_block {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .page-vacancy_detail .vacancy_detail .description .image_block img {
+    width: 100%;
+  }
+
+  .page-vacancy_detail .vacancy_detail .description .text_block {
     padding: 15px;
   }
 }
@@ -6586,21 +7078,21 @@ footer .footer_copyright .copyright .copy_mit a img {
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
   }
 
-  .page-job .job-head .head_wrap .right_side .wrap {
+  .job-banner .banner_wrap .right_side .wrap {
     padding: 10px 15px;
     width: 120px;
   }
 
-  .page-job .job-head .head_wrap .right_side .wrap .actual {
+  .job-banner .banner_wrap .right_side .wrap .actual {
     font-size: 10px;
   }
 
-  .page-job .job-head .head_wrap .right_side .wrap .check_actual {
+  .job-banner .banner_wrap .right_side .wrap .check_actual {
     font-size: 16px;
     line-height: 18px;
   }
 
-  .page-job .job-head .head_wrap .right_side .wrap a {
+  .job-banner .banner_wrap .right_side .wrap a {
     font-size: 10px;
     padding: 5px;
     width: 90px;
@@ -6619,7 +7111,7 @@ footer .footer_copyright .copyright .copy_mit a img {
 
 .webp .page-park .park-content .tech_list .item_img{ background: url(../img/man.webp) center/cover no-repeat; }
 
-.webp .page-job .job-head{ background: url(../img/job.webp) center/cover no-repeat; }
+.webp .job-banner{ background: url(../img/job.webp) center/cover no-repeat; }
 
 @media all and (max-width: 500px){
 
