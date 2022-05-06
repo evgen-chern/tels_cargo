@@ -5730,6 +5730,313 @@ footer .footer_copyright .copyright .copy_mit a img {
 
 /*VACANCY DETAIL_ALL FINISH*/
 
+/*PAGE CALLBACK FORM START*/
+
+.page-callback_form .callback_form {
+  margin-bottom: 50px;
+}
+
+.page-callback_form .callback_form h1 {
+  font-size: 25px;
+  line-height: 29px;
+  text-transform: uppercase;
+  color: #003A7D;
+  margin-bottom: 30px;
+}
+
+.page-callback_form .callback_form .form_wrapper {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.page-callback_form .callback_form .form_wrapper .form_banner {
+  background: #f5f5f5;
+  width: 36%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.page-callback_form .callback_form .form_wrapper .form_banner .text_wrapper {
+  padding: 40px;
+}
+
+.page-callback_form .callback_form .form_wrapper .form_banner .text_wrapper h3 {
+  font-size: 20px;
+  line-height: 25px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.page-callback_form .callback_form .form_wrapper .form_banner .text_wrapper .text {
+  line-height: 25px;
+  text-align: justify;
+}
+
+.page-callback_form .callback_form .form_wrapper .form_banner .img_wrapper {
+  width: 100%;
+}
+
+.page-callback_form .callback_form .form_wrapper .form_banner .img_wrapper img {
+  width: 100%;
+}
+
+.page-callback_form .callback_form .form_wrapper .form {
+  background: #f3f3f3;
+  width: 64%;
+  padding: 50px;
+}
+
+.page-callback_form .callback_form .form_wrapper .form .form_head {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 30px;
+}
+
+.page-callback_form .callback_form .form_wrapper .form .form_head h2 {
+  font-size: 25px;
+  line-height: 29px;
+  text-transform: uppercase;
+}
+
+.page-callback_form .callback_form .form_wrapper .form .form_head .req {
+  font-size: 12px;
+}
+
+.page-callback_form .callback_form .form_wrapper .form .form_head .req span {
+  font-weight: 700;
+  color: #F97D0A;
+}
+
+.page-callback_form .callback_form .form_wrapper .form .form_fields {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.page-callback_form .callback_form .form_wrapper .form .form_fields .form_group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  height: 60px;
+  margin-bottom: 10px;
+  background: #ffffff;
+  border-radius: 2px;
+}
+
+.page-callback_form .callback_form .form_wrapper .form .form_fields .form_group.textarea {
+  height: 100%;
+}
+
+.page-callback_form .callback_form .form_wrapper .form .form_fields .form_group.error:after {
+  background: #FF0000;
+}
+
+.page-callback_form .callback_form .form_wrapper .form .form_fields .form_group.error input::-webkit-input-placeholder {
+  color: #FF0000;
+}
+
+.page-callback_form .callback_form .form_wrapper .form .form_fields .form_group.error input::-moz-placeholder {
+  color: #FF0000;
+}
+
+.page-callback_form .callback_form .form_wrapper .form .form_fields .form_group.error input:-ms-input-placeholder {
+  color: #FF0000;
+}
+
+.page-callback_form .callback_form .form_wrapper .form .form_fields .form_group.error input::-ms-input-placeholder {
+  color: #FF0000;
+}
+
+.page-callback_form .callback_form .form_wrapper .form .form_fields .form_group.error input::placeholder {
+  color: #FF0000;
+}
+
+.page-callback_form .callback_form .form_wrapper .form .form_fields .form_group:after {
+  display: block;
+  content: "";
+  width: 100%;
+  height: 2px;
+  background: #CCCCCC;
+}
+
+.page-callback_form .callback_form .form_wrapper .form .form_fields .form_group.active:after {
+  background: #F97D0A;
+}
+
+.page-callback_form .callback_form .form_wrapper .form .form_fields .form_group label {
+  padding: 10px 20px 0 20px;
+  margin-bottom: 5px;
+  font-size: 12px;
+  color: #666666;
+}
+
+.page-callback_form .callback_form .form_wrapper .form .form_fields .form_group input {
+  padding: 0 20px 13px 20px;
+  height: 100%;
+  line-height: 16px;
+}
+
+.page-callback_form .callback_form .form_wrapper .form .form_fields .form_group input::-webkit-input-placeholder {
+  line-height: 16px;
+  color: #000000;
+}
+
+.page-callback_form .callback_form .form_wrapper .form .form_fields .form_group input::-moz-placeholder {
+  line-height: 16px;
+  color: #000000;
+}
+
+.page-callback_form .callback_form .form_wrapper .form .form_fields .form_group input:-ms-input-placeholder {
+  line-height: 16px;
+  color: #000000;
+}
+
+.page-callback_form .callback_form .form_wrapper .form .form_fields .form_group input::-ms-input-placeholder {
+  line-height: 16px;
+  color: #000000;
+}
+
+.page-callback_form .callback_form .form_wrapper .form .form_fields .form_group input::placeholder {
+  line-height: 16px;
+  color: #000000;
+}
+
+.page-callback_form .callback_form .form_wrapper .form .form_fields .form_group textarea {
+  height: 197px;
+  padding: 0 20px 13px 20px;
+  line-height: 16px;
+}
+
+.page-callback_form .callback_form .form_wrapper .form .form_fields .form_group textarea::-webkit-input-placeholder {
+  line-height: 16px;
+  color: #000000;
+}
+
+.page-callback_form .callback_form .form_wrapper .form .form_fields .form_group textarea::-moz-placeholder {
+  line-height: 16px;
+  color: #000000;
+}
+
+.page-callback_form .callback_form .form_wrapper .form .form_fields .form_group textarea:-ms-input-placeholder {
+  line-height: 16px;
+  color: #000000;
+}
+
+.page-callback_form .callback_form .form_wrapper .form .form_fields .form_group textarea::-ms-input-placeholder {
+  line-height: 16px;
+  color: #000000;
+}
+
+.page-callback_form .callback_form .form_wrapper .form .form_fields .form_group textarea::placeholder {
+  line-height: 16px;
+  color: #000000;
+}
+
+.page-callback_form .callback_form .form_wrapper .form .form_fields .accept_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 20px 0 30px 0;
+}
+
+.page-callback_form .callback_form .form_wrapper .form .form_fields .accept_block .custom_check {
+  position: relative;
+  cursor: pointer;
+  font-size: 12px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  margin-left: 35px;
+}
+
+.page-callback_form .callback_form .form_wrapper .form .form_fields .accept_block .custom_check .checkmark {
+  position: absolute;
+  top: 0px;
+  left: -35px;
+  height: 25px;
+  width: 25px;
+  background-color: #fff;
+  border: 1px solid #CCCCCC;
+  border-radius: 2px;
+}
+
+.page-callback_form .callback_form .form_wrapper .form .form_fields .accept_block .custom_check .checked_mark {
+  display: none;
+  position: absolute;
+  top: 5px;
+  left: -30px;
+  height: 15px;
+  width: 15px;
+  background: #F97D0A;
+  border-radius: 2px;
+}
+
+.page-callback_form .callback_form .form_wrapper .form .form_fields .accept_block .custom_check input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.page-callback_form .callback_form .form_wrapper .form .form_fields .accept_block .custom_check input:checked ~ .checked_mark {
+  display: block;
+}
+
+.page-callback_form .callback_form .form_wrapper .form .form_fields .req_mess {
+  font-size: 12px;
+  color: #FF0000;
+}
+
+.page-callback_form .callback_form .form_wrapper .form .form_fields .send_button {
+  margin-top: 40px;
+}
+
+.page-callback_form .callback_form .form_wrapper .form .form_fields .send_button input {
+  cursor: pointer;
+  color: #F97D0A;
+  background: #FFFFFF;
+  padding: 16px 40px;
+  border: 1px solid #F97D0A;
+  border-radius: 5px;
+}
+
+.page-callback_form .callback_form .form_wrapper .form .form_fields .send_button input:hover {
+  color: #FFFFFF;
+  background: #F97D0A;
+}
+
+/*PAGE CALLBACK FORM END*/
+
 @media all and (max-width: 1279px) {
   header .header_wrapper .logo_wrapper {
     width: 75px;
@@ -6011,6 +6318,19 @@ footer .footer_copyright .copyright .copy_mit a img {
 
   .page-vacancy_detail-all .vacancy_detail-all .detail_wrap .vacancy-feedback .socials .vacancy_social-list li {
     margin-right: 28px;
+  }
+
+  .page-callback_form .callback_form .form_wrapper .form_banner {
+    width: 45%;
+  }
+
+  .page-callback_form .callback_form .form_wrapper .form_banner .text_wrapper {
+    padding: 20px;
+  }
+
+  .page-callback_form .callback_form .form_wrapper .form {
+    padding: 20px;
+    width: 55%;
   }
 }
 
@@ -7775,6 +8095,128 @@ footer .footer_copyright .copyright .copy_mit a img {
   .page-vacancy_detail-all .vacancy_detail-all .detail_wrap .vacancy-feedback .socials .vacancy_social-list li {
     margin-right: 15px;
   }
+
+  .page-callback_form .callback_form {
+    margin-bottom: 25px;
+  }
+
+  .page-callback_form .callback_form h1 {
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 20px;
+  }
+
+  .page-callback_form .callback_form .form_wrapper .form_banner .text_wrapper h3 {
+    font-size: 16px;
+    line-height: 18px;
+    margin-bottom: 15px;
+  }
+
+  .page-callback_form .callback_form .form_wrapper .form_banner .text_wrapper .text {
+    line-height: 20px;
+  }
+
+  .page-callback_form .callback_form .form_wrapper .form .form_head {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 15px;
+  }
+
+  .page-callback_form .callback_form .form_wrapper .form .form_head h2 {
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 5px;
+  }
+
+  .page-callback_form .callback_form .form_wrapper .form .form_fields .form_group {
+    height: 50px;
+  }
+
+  .page-callback_form .callback_form .form_wrapper .form .form_fields .form_group label {
+    padding: 5px 20px 0 20px;
+  }
+
+  .page-callback_form .callback_form .form_wrapper .form .form_fields .form_group input {
+    height: 100%;
+    line-height: 14px;
+    padding: 0 20px 7px 20px;
+  }
+
+  .page-callback_form .callback_form .form_wrapper .form .form_fields .form_group input::-webkit-input-placeholder {
+    line-height: 14px;
+  }
+
+  .page-callback_form .callback_form .form_wrapper .form .form_fields .form_group input::-moz-placeholder {
+    line-height: 14px;
+  }
+
+  .page-callback_form .callback_form .form_wrapper .form .form_fields .form_group input:-ms-input-placeholder {
+    line-height: 14px;
+  }
+
+  .page-callback_form .callback_form .form_wrapper .form .form_fields .form_group input::-ms-input-placeholder {
+    line-height: 14px;
+  }
+
+  .page-callback_form .callback_form .form_wrapper .form .form_fields .form_group input::placeholder {
+    line-height: 14px;
+  }
+
+  .page-callback_form .callback_form .form_wrapper .form .form_fields .form_group textarea {
+    height: 100%;
+    line-height: 14px;
+  }
+
+  .page-callback_form .callback_form .form_wrapper .form .form_fields .form_group textarea::-webkit-input-placeholder {
+    line-height: 14px;
+  }
+
+  .page-callback_form .callback_form .form_wrapper .form .form_fields .form_group textarea::-moz-placeholder {
+    line-height: 14px;
+  }
+
+  .page-callback_form .callback_form .form_wrapper .form .form_fields .form_group textarea:-ms-input-placeholder {
+    line-height: 14px;
+  }
+
+  .page-callback_form .callback_form .form_wrapper .form .form_fields .form_group textarea::-ms-input-placeholder {
+    line-height: 14px;
+  }
+
+  .page-callback_form .callback_form .form_wrapper .form .form_fields .form_group textarea::placeholder {
+    line-height: 14px;
+  }
+
+  .page-callback_form .callback_form .form_wrapper .form .form_fields .accept_block {
+    margin: 5px 0 10px 0;
+  }
+
+  .page-callback_form .callback_form .form_wrapper .form .form_fields .accept_block .custom_check {
+    margin-left: 25px;
+  }
+
+  .page-callback_form .callback_form .form_wrapper .form .form_fields .accept_block .custom_check .checkmark {
+    left: -25px;
+    height: 15px;
+    width: 15px;
+  }
+
+  .page-callback_form .callback_form .form_wrapper .form .form_fields .accept_block .custom_check .checked_mark {
+    top: 4px;
+    left: -21px;
+    height: 7px;
+    width: 7px;
+  }
+
+  .page-callback_form .callback_form .form_wrapper .form .form_fields .send_button {
+    margin-top: 15px;
+  }
+
+  .page-callback_form .callback_form .form_wrapper .form .form_fields .send_button input {
+    padding: 10px 20px;
+  }
 }
 
 @media all and (max-width: 767px) {
@@ -8131,6 +8573,21 @@ footer .footer_copyright .copyright .copy_mit a img {
 
   .page-vacancy_detail-all .vacancy_detail-all .detail_wrap .vacancy-feedback .socials p {
     display: none;
+  }
+
+  .page-callback_form .callback_form .form_wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .page-callback_form .callback_form .form_wrapper .form_banner {
+    width: 100%;
+  }
+
+  .page-callback_form .callback_form .form_wrapper .form {
+    width: 100%;
   }
 }
 
