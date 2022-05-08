@@ -6742,6 +6742,11 @@ footer .footer_copyright .copyright .copy_mit a img {
   content: none;
 }
 
+.page-innovation_strategy .innovation_strategy .strategy_tabs .tabs_caption li.active .tab_link {
+  background: #003A7D;
+  color: #FFFFFF;
+}
+
 .page-innovation_strategy .innovation_strategy .strategy_tabs .tabs_caption li .tab_link {
   display: block;
   padding: 20px;
