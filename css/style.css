@@ -6833,7 +6833,281 @@ footer .footer_copyright .copyright .copy_mit a img {
 
 /*BUSINESS FAQ*/
 
+.page-FAQ h1 {
+  font-size: 25px;
+  line-height: 29px;
+  text-transform: uppercase;
+  color: #003A7D;
+  margin-bottom: 30px;
+}
+
+.no-webp .page-FAQ .FAQ-head{
+  background: url("../img/faq.png") center/cover no-repeat; }
+
+.page-FAQ .FAQ-head {
+  padding: 60px 0;
+}
+
+.page-FAQ .FAQ-head .head_wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.page-FAQ .FAQ-head .head_wrap h2 {
+  max-width: 890px;
+  font-size: 40px;
+  line-height: 50px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.page-FAQ .FAQ-head .head_wrap .docs {
+  width: 218px;
+  height: 48px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: 700;
+  line-height: 16px;
+  color: #F97D0A;
+  background: #FFFFFF;
+  border: 1px solid #F97D0A;
+  border-radius: 5px;
+}
+
+.page-FAQ .FAQ-head .head_wrap .docs:hover {
+  color: #FFFFFF;
+  background: #f97d0a;
+}
+
+.page-FAQ .FAQ-content {
+  margin: 50px auto;
+}
+
+.page-FAQ .FAQ-content h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 20px;
+  line-height: 23px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.page-FAQ .FAQ-content h3:before {
+  content: "";
+  display: block;
+  margin-right: 10px;
+  width: 2px;
+  height: 23px;
+  background: #f97d0a;
+}
+
+.page-FAQ .FAQ-content .FAQ_accordion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+.page-FAQ .FAQ-content .FAQ_accordion.company {
+  margin-bottom: 30px;
+}
+
+.page-FAQ .FAQ-content .FAQ_accordion li {
+  margin-bottom: 5px;
+  background: #F3F3F3;
+}
+
+.page-FAQ .FAQ-content .FAQ_accordion li:last-child {
+  margin-bottom: 0;
+}
+
+.page-FAQ .FAQ-content .FAQ_accordion li .accordion_link {
+  font-size: 16px;
+  line-height: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 30px;
+}
+
+.page-FAQ .FAQ-content .FAQ_accordion li .accordion_link:hover {
+  color: #FFFFFF;
+  background: #003A7D;
+}
+
+.page-FAQ .FAQ-content .FAQ_accordion li .accordion_link:before {
+  content: url("../img/icons/question.svg");
+  margin-right: 15px;
+}
+
+.page-FAQ .FAQ-content .FAQ_accordion li .accordion_link:after {
+  content: url("../img/icons/plus.svg");
+  margin-left: auto;
+}
+
+.page-FAQ .FAQ-content .FAQ_accordion li .accordion_link.active {
+  color: #FFFFFF;
+  background: #003A7D;
+}
+
+.page-FAQ .FAQ-content .FAQ_accordion li .accordion_link.active:before {
+  content: url("../img/icons/w_question.svg");
+}
+
+.page-FAQ .FAQ-content .FAQ_accordion li .accordion_link.active:after {
+  content: url("../img/icons/minus.svg");
+}
+
+.page-FAQ .FAQ-content .FAQ_accordion li .content {
+  padding: 30px 60px;
+  background: #FFFFFF;
+  display: none;
+}
+
+.page-FAQ .FAQ-content .FAQ_accordion li .content .text {
+  line-height: 25px;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.page-FAQ .FAQ-content .FAQ_accordion li .content .text:last-child {
+  margin-bottom: 0;
+}
+
+.page-FAQ .FAQ-content .FAQ_accordion li .content.active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 /*BUSINESS FAQ END*/
+
+/*FAQ DOCS*/
+
+.page-FAQ_docs .docs {
+  margin-bottom: 50px;
+}
+
+.page-FAQ_docs .docs h1 {
+  font-size: 25px;
+  line-height: 29px;
+  text-transform: uppercase;
+  color: #003A7D;
+  margin-bottom: 30px;
+}
+
+.page-FAQ_docs .docs h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 20px;
+  line-height: 23px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.page-FAQ_docs .docs h2:before {
+  content: "";
+  display: block;
+  margin-right: 10px;
+  width: 2px;
+  height: 23px;
+  background: #f97d0a;
+}
+
+.page-FAQ_docs .docs .docs_list {
+  background: #F3F3F3;
+  padding: 30px;
+}
+
+.page-FAQ_docs .docs .docs_list.reg {
+  margin-bottom: 30px;
+}
+
+.page-FAQ_docs .docs .docs_list li {
+  width: 100%;
+}
+
+.page-FAQ_docs .docs .docs_list li:after {
+  display: block;
+  margin: 20px 0;
+  content: "";
+  width: 100%;
+  height: 1px;
+  background: #CCCCCC;
+}
+
+.page-FAQ_docs .docs .docs_list li:last-child:after {
+  content: none;
+}
+
+.page-FAQ_docs .docs .docs_list li .link {
+  font-size: 16px;
+  line-height: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: justify;
+  color: #003A7D;
+}
+
+.page-FAQ_docs .docs .docs_list li .link:hover {
+  color: #F97D0A;
+}
+
+.page-FAQ_docs .docs .docs_list li .link .doc_icon {
+  display: block;
+  margin-right: 15px;
+}
+
+.page-FAQ_docs .docs .docs_list li .link .doc_size {
+  width: 15%;
+  padding-left: 15px;
+  display: block;
+  text-align: right;
+  margin-left: auto;
+  font-size: 12px;
+  line-height: 25px;
+  color: #666666;
+}
+
+/*FAQ DOCS END*/
+
+/**/
+
+/**/
 
 @media all and (max-width: 1279px) {
   header .header_wrapper .logo_wrapper {
@@ -9344,6 +9618,96 @@ footer .footer_copyright .copyright .copy_mit a img {
   .page-innovation_strategy .innovation_strategy .strategy_tabs .tabs_content .list li:before {
     margin-right: 10px;
   }
+
+  .page-FAQ h1 {
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 20px;
+  }
+
+  .page-FAQ .FAQ-head {
+    padding: 30px 0;
+  }
+
+  .page-FAQ .FAQ-head .head_wrap h2 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .page-FAQ .FAQ-head .head_wrap .docs {
+    width: 178px;
+    height: 30px;
+  }
+
+  .page-FAQ .FAQ-content {
+    margin: 25px auto;
+  }
+
+  .page-FAQ .FAQ-content h3 {
+    font-size: 16px;
+    line-height: 18px;
+    margin-bottom: 10px;
+  }
+
+  .page-FAQ .FAQ-content .FAQ_accordion.company {
+    margin-bottom: 15px;
+  }
+
+  .page-FAQ .FAQ-content .FAQ_accordion li .accordion_link {
+    padding: 15px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .page-FAQ .FAQ-content .FAQ_accordion li .content {
+    padding: 15px 45px;
+  }
+
+  .page-FAQ .FAQ-content .FAQ_accordion li .content .text {
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+
+  .page-FAQ_docs .docs {
+    margin-bottom: 25px;
+  }
+
+  .page-FAQ_docs .docs h1 {
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 20px;
+  }
+
+  .page-FAQ_docs .docs h2 {
+    font-size: 16px;
+    line-height: 18px;
+    margin-bottom: 10px;
+  }
+
+  .page-FAQ_docs .docs .docs_list {
+    padding: 15px;
+  }
+
+  .page-FAQ_docs .docs .docs_list.reg {
+    margin-bottom: 15px;
+  }
+
+  .page-FAQ_docs .docs .docs_list li:after {
+    margin: 10px 0;
+  }
+
+  .page-FAQ_docs .docs .docs_list li .link {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .page-FAQ_docs .docs .docs_list li .link .doc_icon {
+    margin-right: 10px;
+  }
+
+  .page-FAQ_docs .docs .docs_list li .link .doc_size {
+    line-height: 20px;
+  }
 }
 
 @media all and (max-width: 767px) {
@@ -9823,6 +10187,33 @@ footer .footer_copyright .copyright .copy_mit a img {
   .page-innovation_strategy .innovation_strategy .strategy_tabs .tabs_content .list li {
     width: 100%;
   }
+
+  .page-FAQ .FAQ-head .head_wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .page-FAQ .FAQ-head .head_wrap h2 {
+    margin-bottom: 15px;
+  }
+
+  .page-FAQ .FAQ-content .FAQ_accordion li .accordion_link:before {
+    margin-right: 10px;
+  }
+
+  .page-FAQ .FAQ-content .FAQ_accordion li .accordion_link:after {
+    padding-left: 15px;
+  }
+
+  .page-FAQ .FAQ-content .FAQ_accordion li .content {
+    padding: 15px 40px;
+  }
+
+  .page-FAQ_docs .docs .docs_list li .link .doc_size {
+    display: none;
+  }
 }
 
 @media all and (max-width: 500px) {
@@ -10014,6 +10405,8 @@ footer .footer_copyright .copyright .copy_mit a img {
 .webp .job-banner{ background: url(../img/job.webp) center/cover no-repeat; }
 
 .webp .page-business .business .banner{ background: url(../img/business.webp) center/cover no-repeat; }
+
+.webp .page-FAQ .FAQ-head{ background: url(../img/faq.webp) center/cover no-repeat; }
 
 @media all and (max-width: 500px){
 
