@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="x-ua-compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.min.css?_v=20220512085533">
+  <link rel="stylesheet" href="css/style.min.css?_v=20220517112221">
   <title>Главная</title>
 </head>
 <body>
@@ -229,19 +229,9 @@
 
 <main class="page-index">
     <section class="index-banner">
-        <div class="banner container">
-            <div class="left-side">
-                <h1 class="index-title">
-                    <span>Миссия TELS CARGO</span>
-                    Безупречно доставлять грузы
-                </h1>
-                <p>
-                    Наши удобные и интегрированные транспортные
-                    решения защищают ваши интересы, внося
-                    вклад устойчивое развитие общества
-                </p>
-            </div>
-            <div class="right-side">
+
+        <div class="index-slider_right_wrapper">
+            <div class="slide">
                 <div class="event_block">
                     <h3>Важные события</h3>
                     <hr>
@@ -251,7 +241,60 @@
                     </p>
                     <a href="#">Узнать больше</a>
                 </div>
-                <div class="gradient_block"></div>
+            </div>
+            <div class="slide">
+                <div class="event_block">
+                    <h3>Важные события</h3>
+                    <hr>
+                    <p>
+                        Теперь Китай стал доступнее для торговли
+                        Мы открыли новое направление по доставке грузов.
+                    </p>
+                    <a href="#">Узнать больше</a>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="event_block">
+                    <h3>Важные события</h3>
+                    <hr>
+                    <p>
+                        Мы открыли новое направление по доставке грузов.
+                        Теперь Китай стал доступнее для торговли
+                    </p>
+                    <a href="#">Узнать больше</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="index_slider-wrapper">
+            <div class="slide">
+                <div class="text_wrap">
+                    <h1 class="index-title">
+                        <span>Миссия TELS CARGO</span>
+                        Безупречно
+                        доставлять грузы
+                    </h1>
+                    <p>
+                        Наши удобные и интегрированные транспортные
+                        решения защищают ваши интересы, внося
+                        вклад устойчивое развитие общества
+                    </p>
+                </div>
+                <picture><source srcset="img/index_banner.webp" type="image/webp"><img src="img/index_banner.png" alt=""></picture>
+            </div>
+            <div class="slide">
+                <div class="text_wrap">
+                    <h1 class="index-title">
+                        <span>Миссия TELS CARGO</span>
+                        удобные и интегрированные
+                    </h1>
+                    <p>
+                        Наши удобные и интегрированные транспортные
+                        решения защищают ваши интересы, внося
+                        вклад устойчивое развитие общества
+                    </p>
+                </div>
+                <picture><source srcset="img/index_banner.webp" type="image/webp"><img src="img/index_banner.png" alt=""></picture>
             </div>
         </div>
     </section>
@@ -327,7 +370,7 @@
             </div>
 
             <div class="cost-form_buttons">
-                <a class="ext_open" href="javascript:void(0);">
+                <a class="ext_open" href="javascript:void(0);" onclick="costExt(this)">
                     Раскрыть расширенный запрос
                 </a>
                 <div class="accept_block">
@@ -337,9 +380,9 @@
                         <span class="checked_mark"></span>
                         Согласен с политикой конфиденциальности
                     </label>
-                    <a href="#">
+                    <button>
                         Рассчитать стоимость ставки
-                    </a>
+                    </button>
                 </div>
             </div>
         </div>
@@ -687,7 +730,8 @@
 </footer>
 </div>
 
-<script src="js/jquery-3.4.1.min.js?_v=20220512085533"></script>
-<script src="js/app.min.js?_v=20220512085533"></script>
+<script src="js/jquery-3.4.1.min.js?_v=20220517112221"></script>
+<script src="js/lightslider.min.js?_v=20220517112221"></script>
+<script src="js/app.js?_v=20220517112221"></script>
 </body>
 </html>
